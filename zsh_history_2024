@@ -1,0 +1,2535 @@
+: 1730642045:0;ls -lrt
+: 1730642855:0;vim ~/.zshrc
+: 1730642861:0;vi ~/.zshrc
+: 1730643060:0;source ~/.zshrc
+: 1730643070:0;sudo apt install fonts-powerline
+: 1730643112:0;source ~/.zshrc
+: 1730643125:0;curl -O https://raw.githubusercontent.com/connectplatform/linux-scripts/main/setup-zsh.sh && chmod +x setup-zsh.sh && setup-zsh.sh
+: 1730643247:0;git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+: 1730643259:0;vim ~/.zshrc
+: 1730643263:0;vi ~/.zshrc
+: 1730643344:0;source ~/.zshrc
+: 1730643423:0;git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+: 1730643445:0;source ~/.zshrc
+: 1730644561:0;sudo apt install fzf
+: 1730644615:0;# Set up fzf key bindings and fuzzy completion\
+source <(fzf --zsh)
+: 1730644658:0;sudo apt install nvim
+: 1730644666:0;snap install nvim
+: 1730644731:0;curl -LO https://github.com/neovim/neovim/releases/download/nightly/nvim-macos-arm64.tar.gz\
+tar xzf nvim-macos-arm64.tar.gz\
+./nvim-macos-arm64/bin/nvim
+: 1730644754:0;curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim-linux64.tar.gz\
+sudo rm -rf /opt/nvim\
+sudo tar -C /opt -xzf nvim-linux64.tar.gz
+: 1730644766:0;nvim
+: 1730644777:0;export PATH="$PATH:/opt/nvim-linux64/bin"
+: 1730644780:0;source ~/.zshrc
+: 1730644784:0;nvim 
+: 1730644965:0;# Set up fzf key bindings and fuzzy completion\
+source <(fzf --zsh)
+: 1730644995:0;fzf --height 40% --layout reverse --border
+: 1730647821:0;git clone git@github.com:Lab45-CoreAI/Platform.git
+: 1730647881:0;ssh-keygen -t ed25519 -C "anupam.patel@wipro.com"
+: 1730647896:0;ls -lrt
+: 1730647905:0;ls ~/.ssh
+: 1730647905:0;ls
+: 1730647916:0;cat ~/.ssh/id_ed25519.pub
+: 1730648071:0;git clone git@github.com:Lab45-CoreAI/Platform.git
+: 1730648159:0;cd Platform
+: 1730648169:0;git checkout blob_storage_gcp
+: 1730648258:0;git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+: 1730648281:0;vim ~/.zshrc
+: 1730648300:0;vi ~/.zshrc
+: 1730648354:0;source ~/.zshrc
+: 1730648433:0;ls -lrt
+: 1730649264:0;code .
+: 1730651236:0;git status
+: 1730679445:0;[200~sudo apt install -y make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev~
+: 1730679459:0;sudo apt install -y make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev
+: 1730679562:0;curl https://pyenv.run | bash
+: 1730679574:0;echo -e 'export PYENV_ROOT="$HOME/.pyenv"\nexport PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zshrc\
+echo -e 'eval "$(pyenv init --path)"\neval "$(pyenv init -)"' >> ~/.zshrc
+: 1730679595:0;exec "$SHELL"
+: 1730679610:0;source ~/.zshrc
+: 1730679632:0;curl https://pyenv.run | zsh
+: 1730679646:0;source ~/.zshrc
+: 1730679670:0;pyenv install 3.10.0
+: 1730679786:0;pyenv virtualenv 3.10.0 pyenv_3_10_0
+: 1730679883:0;find . -name "requirements.txt" -exec pip install -r {} \;\
+
+: 1730679895:0;pyenv activate pyenv_3_10_0
+: 1730679898:0;find . -name "requirements.txt" -exec pip install -r {} \;\
+
+: 1730682140:0;code .
+: 1730682145:0;/bin/python3 /home/anupam/.vscode/extensions/ms-python.python-2024.18.0-linux-x64/python_files/printEnvVariablesToFile.py /home/anupam/.vscode/extensions/ms-python.python-2024.18.0-linux-x64/python_files/deactivate/zsh/envVars.txt
+: 1730682154:0;cd common
+: 1730682165:0;python file_manager_async_v1.py
+: 1730682298:0;pip install aiofiles
+: 1730682389:0;pip install gcloud
+: 1730682459:0;pip install gcloud-aio-storage
+: 1730682490:0;python file_manager_async_v1.py
+: 1730684001:0;pip install gcloud-aio-storage\
+
+: 1730684091:0;python file_manager_async_v1.py
+: 1730692588:0;git status
+: 1730692596:0;git diff common/file_manager_async_v1.py
+: 1730692600:0;git add common/file_manager_async_v1.py
+: 1730692646:0;git commit -m "tentative changes for async gcp implementation"
+: 1730692667:0;git config --global user.email "anupam.patel@wipro.com"
+: 1730692680:0;git config --global user.name "anupamwipro"
+: 1730692686:0;git push origin blob_storage_gcp
+: 1730692696:0;git commit -m "tentative changes for async gcp implementation"
+: 1730692700:0;git push origin blob_storage_gcp
+: 1730694977:0;git status
+: 1730694989:0;git add common/blob_manager.py
+: 1730694995:0;git add common/blob_manager_async.py
+: 1730694999:0;git status
+: 1730695012:0;git rm common/file_manager_async_v1.py
+: 1730695029:0;git rm common/file_manager.py
+: 1730695034:0;git status
+: 1730695045:0;git rm common/file_manager_v1.py
+: 1730695055:0;git commit -m "refactoring"
+: 1730695060:0;git push origin blob_storage_gcp
+: 1730695802:0;python blob_manager.py
+: 1730696469:0;python blob_manager_async.py
+: 1730696473:0;git status
+: 1730696477:0;git diff
+: 1730696479:0;git status
+: 1730696486:0;git add common/blob_manager.py
+: 1730696495:0;git add common/blob_manager_async.py
+: 1730696512:0;git commit -m "refactoring for blob storage"
+: 1730696527:0;git push origin blob_storage_gcp
+: 1730697356:0;python -m unittest discover -s . -p 'blob_manager_test.py' -v
+: 1730697687:0;git push origin blob_storage_gcp
+: 1730697691:0;python -m unittest discover -s . -p 'blob_manager_test.py' -v
+: 1730702914:0;exit
+: 1730703710:0;echo $SHELL
+: 1730704318:0;cd Platform
+: 1730704322:0;code .
+: 1730704329:0;/usr/bin/python3 /home/anupam/.vscode/extensions/ms-python.python-2024.18.0-linux-x64/python_files/printEnvVariablesToFile.py /home/anupam/.vscode/extensions/ms-python.python-2024.18.0-linux-x64/python_files/deactivate/zsh/envVars.txt
+: 1730704535:0;cd
+: 1730704537:0;ls -lrt
+: 1730704539:0;cd gcp-changes-for-ocr
+: 1730704543:0;pyenv activate pyenv_3_10_0
+: 1730704733:0;cd
+: 1730704736:0;ls -lrt
+: 1730704738:0;cd gcp-changes-for-ocr
+: 1730704740:0;cd Platform
+: 1730704744:0;code .
+: 1730704813:0;/bin/python3 /home/anupam/.vscode/extensions/ms-python.python-2024.18.0-linux-x64/python_files/printEnvVariablesToFile.py /home/anupam/.vscode/extensions/ms-python.python-2024.18.0-linux-x64/python_files/deactivate/zsh/envVars.txt
+: 1730711463:0;git status
+: 1730711464:0;cd
+: 1730711471:0;cd Platform
+: 1730711474:0;git status
+: 1730711492:0;git add common/__init__.py
+: 1730711502:0;git diff common/blob_manager.py
+: 1730711514:0;git rm common/blob_manager.py
+: 1730711520:0;git rm common/blob_manager_async.py
+: 1730711525:0;git add common/blob/
+: 1730711530:0;git commit -m "refactoring for blob storage"
+: 1730711533:0;git push origin blob_storage_gcp
+: 1730718834:0;echo "deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongodb-server-8.0.gpg ] https://repo.mongodb.org/apt/ubuntu jammy/mongodb-org/8.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-8.0.list
+: 1730718851:0;sudo apt-get update
+: 1730718865:0;sudo apt-get install -y mongodb-org
+: 1730718940:0;curl -fsSL https://www.mongodb.org/static/pgp/server-6.0.asc | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/mongodb-6.gpg
+: 1730718956:0;echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu jammy/mongodb-org/6.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-6.0.list
+: 1730718959:0;cd
+: 1730718965:0;sudo apt update
+: 1730719028:0;sudo apt install software-properties-common gnupg apt-transport-https ca-certificates -y
+: 1730719062:0;curl -fsSL https://pgp.mongodb.com/server-7.0.asc |  sudo gpg -o /usr/share/keyrings/mongodb-server-7.0.gpg --dearmor
+: 1730719077:0;echo "deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongodb-server-7.0.gpg ] https://repo.mongodb.org/apt/ubuntu jammy/mongodb-org/7.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-7.0.list
+: 1730719088:0;echo "deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongodb-server-7.0.gpg ] https://repo.mongodb.org/apt/ubuntu jammy/mongodb-org/7.0 multiverse"
+: 1730719096:0;sudo apt update
+: 1730719145:0;sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 41DE058A4E7DCA05\
+
+: 1730719153:0;sudo apt update
+: 1730719171:0;curl -fsSL https://pgp.mongodb.com/server-8.0.asc | sudo gpg --dearmor -o /usr/share/keyrings/mongodb-server-8.0.gpg\
+
+: 1730719175:0;sudo apt update
+: 1730719191:0;sudo apt list --upgradable
+: 1730719196:0;sudo apt update
+: 1730719211:0;sudo apt update\
+sudo apt install -y mongodb-org\
+
+: 1730720044:0;cd Platform
+: 1730720045:0;ls
+: 1730720064:0;cp common/blob/blob_manager.py ~/Downloads/blob_manager.txt
+: 1730732704:0;pip install gcloud-aio-storage\
+
+: 1730779345:0;pwd
+: 1730779546:0;python blob/blob_manager.py
+: 1730779550:0;cd ..
+: 1730779576:0;python common/blob/blob_manager.py
+: 1730779979:0;pyenv activate pyenv_3_10_0
+: 1730779981:0;ipython
+: 1730781148:0;pyenv activate pyenv_3_10_0
+: 1730781152:0;ipython
+: 1730781612:0;python common/blob/blob_manager.py
+: 1730782337:0;cd common
+: 1730782340:0;python blob/blob_manager.py
+: 1730782348:0;cd ..
+: 1730783666:0;cd -
+: 1730783671:0;python blob/blob_manager.py
+: 1730783680:0;pwd
+: 1730783687:0;python common/blob/blob_manager.py
+: 1730783693:0;cd common
+: 1730783694:0;ls
+: 1730783699:0;python blob/blob_manager.py
+: 1730784688:0;git status
+: 1730784695:0;git diff common/blob/blob_manager.py
+: 1730784704:0;git add common/blob/blob_manager.py
+: 1730784710:0;git diff common/blob/blob_manager_async.py
+: 1730784715:0;git add common/blob/blob_manager_async.py
+: 1730784721:0;git commit -m "refactoring for blob storage"
+: 1730784724:0;git push origin blob_storage_gcp
+: 1730785200:0;python blob/blob_manager.py
+: 1730785248:0;cd ..
+: 1730785252:0;python common/blob/blob_manager.py
+: 1730785873:0;python -m unittest discover -s . -p 'blob_manager_test.py' -v
+: 1730788021:0;git status
+: 1730788030:0;git add common/blob/__init__.py
+: 1730788041:0;git diff common/blob/blob_manager.py
+: 1730788064:0;git add common/blob/blob_manager.py
+: 1730788071:0;git add common/blob/blob_manager_test.py
+: 1730788075:0;git status
+: 1730788079:0;rm test.json
+: 1730788083:0;git commit -m "refactoring for blob storage"
+: 1730788085:0;git push origin blob_storage_gcp
+: 1730788095:0;pwd
+: 1730788118:0;python common/blob/blob_manager.py
+: 1730788234:0;python common/blob/blob_factory.py
+: 1730788572:0;pwd
+: 1730788613:0;python client/blob/blob_manager
+: 1730788618:0;python client/blob/blob_manager.py
+: 1730788674:0;cd client
+: 1730788674:0;ls
+: 1730788681:0;rm -rf __pycache__
+: 1730788694:0;python blob/blob_manager.py
+: 1730788727:0;ls -lrt
+: 1730788730:0;pwd
+: 1730788734:0;cd ..
+: 1730788734:0;ls
+: 1730788737:0;pwd
+: 1730788742:0;cd common
+: 1730788743:0;ls
+: 1730788745:0;ls -lrt
+: 1730788749:0;rm -rf __pycache__
+: 1730788751:0;ls -lrt
+: 1730788762:0;cd validation_client
+: 1730788763:0;ls
+: 1730788768:0;rm -rf __pycache__
+: 1730788799:0;pwd
+: 1730788801:0;cd ..
+: 1730788802:0;ls
+: 1730788803:0;pwd
+: 1730788806:0;cd ..
+: 1730788807:0;ls
+: 1730788810:0;ls -lrt
+: 1730788812:0;find . -type d -name "__pycache__" -exec rm -r {} +\
+
+: 1730788840:0;python common/blob/blob_manager.py
+: 1730789198:0;python common/validation_client/validation_manager
+: 1730789200:0;python common/validation_client/validation_manager.py
+: 1730789212:0;pwd
+: 1730789231:0;git status
+: 1730789241:0;git diff common/blob/blob_factory.py
+: 1730789265:0;git status
+: 1730789271:0;git diff common/blob/blob_factory.py
+: 1730789282:0;git add common/blob/blob_factory.py
+: 1730789287:0;git add common/blob/blob_manager.py
+: 1730789293:0;git commit -m "refactoring for blob storage"
+: 1730789296:0;git push origin blob_storage_gcp
+: 1730789503:0;git status
+: 1730789610:0;python
+: 1730791490:0;cd
+: 1730791499:0;mkdir hurl_test_fix
+: 1730791506:0;cd hurl_test_fix
+: 1730791520:0;git clone git@github.com:Lab45-CoreAI/Platform.git
+: 1730791643:0;cd Platform
+: 1730791679:0;git checkout throttling-hurl-fix
+: 1730791691:0;git pull origin throttling-hurl-fix
+: 1730791697:0;code .
+: 1730791786:0;git checkout --origin main infra/validation_service/internal/validation_server_impl.go
+: 1730791875:0;git checkout origin/main -- infra/validation_service/internal/validation_server_impl.go
+: 1730791899:0;git commit -m "reverting changes in validation_server_impl file"
+: 1730791904:0;git push origin throttling-hurl-fix
+: 1730793867:0;d
+: 1730793869:0;cd
+: 1730793874:0;ls -lrt
+: 1730793882:0;mkdir quick_fix
+: 1730793886:0;cd quick_fix
+: 1730793888:0;git clone git@github.com:Lab45-CoreAI/Platform.git
+: 1730793965:0;cd Platform
+: 1730794030:0;git checkout -b skip_throtting_based_on_skill_id
+: 1730794034:0;code .
+: 1730794069:0;ls -lrt
+: 1730794117:0;code .
+: 1730794198:0;/bin/python3 /home/anupam/.vscode/extensions/ms-python.python-2024.18.0-linux-x64/python_files/printEnvVariablesToFile.py /home/anupam/.vscode/extensions/ms-python.python-2024.18.0-linux-x64/python_files/deactivate/zsh/envVars.txt
+: 1730794704:0;ls -lrt
+: 1730794711:0;cd quick_fix
+: 1730794713:0;code .
+: 1730794722:0;cd Platform
+: 1730794827:0;code .
+: 1730794831:0;/home/anupam/.pyenv/versions/3.11.0/bin/python /home/anupam/.vscode/extensions/ms-python.python-2024.18.0-linux-x64/python_files/printEnvVariablesToFile.py /home/anupam/.vscode/extensions/ms-python.python-2024.18.0-linux-x64/python_files/deactivate/zsh/envVars.txt
+: 1730794978:0;sudo snap install postman
+: 1730795407:0;git status
+: 1730795416:0;git diff common/utils.py
+: 1730795438:0;git add common/utils.py
+: 1730795440:0;git status
+: 1730795449:0;git diff api/resources/skills/api.py
+: 1730795466:0;git add api/resources/skills/api.py
+: 1730795467:0;git status
+: 1730795475:0;git diff common/validation_client/validation_manager.py
+: 1730795481:0;git add common/validation_client/validation_manager.py
+: 1730795512:0;git commit -m "changes to skip throtting for skill_ids which doesn't send model name during invocation"
+: 1730795516:0;git push origin skip_throtting_based_on_skill_id
+: 1730802274:0;cd
+: 1730802275:0;ls -lrt
+: 1730802303:0;cd Platform
+: 1730802303:0;ls
+: 1730802306:0;git diff
+: 1730802316:0;git status
+: 1730802324:0;git checkout common/validation_client/validation_manager.py
+: 1730802331:0;git pull origin blob_storage_gcp
+: 1730802337:0;code .
+: 1730802341:0;/bin/python3 /home/anupam/.vscode/extensions/ms-python.python-2024.18.0-linux-x64/python_files/printEnvVariablesToFile.py /home/anupam/.vscode/extensions/ms-python.python-2024.18.0-linux-x64/python_files/deactivate/zsh/envVars.txt
+: 1730803894:0;pwd
+: 1730803900:0;python common/blob/blob_manager.py
+: 1730803979:0;python common/blob/blob_manager_async.py
+: 1730804917:0;git status
+: 1730804930:0;git diff api/resources/skills/api.py
+: 1730804937:0;git add api/resources/skills/api.py
+: 1730804953:0;git commit -m "doing save token usage if skill is supported"
+: 1730804957:0;git push origin skip_throtting_based_on_skill_id
+: 1730808408:0;python common/blob/blob_manager_async.py
+: 1730808846:0;git status
+: 1730808863:0;git diff common/blob/blob_manager.py
+: 1730808872:0;git add common/blob/blob_manager.py
+: 1730808879:0;git diff common/blob/blob_manager_async.py
+: 1730808891:0;git add common/blob/blob_manager_async.py
+: 1730808896:0;git diff common/gcp_utils.py
+: 1730808900:0;git add common/gcp_utils.py
+: 1730808915:0;git commit -m "simplifying gcp blob async"
+: 1730808927:0;git push origin origin blob_storage_gcp
+: 1730808935:0;pwd
+: 1730808940:0;git pull origin blob_storage_gcp
+: 1730808951:0;git push origin  blob_storage_gcp
+: 1730809393:0;sudo apt install -y mongodb-org\
+
+: 1730809407:0;mongod --version
+: 1730809418:0;sudo systemctl status mongod
+: 1730809450:0;sudo systemctl start mongod
+: 1730809454:0;sudo systemctl status mongod
+: 1730809504:0;sudo apt-get install gnupg curl
+: 1730809509:0;curl -fsSL https://www.mongodb.org/static/pgp/server-8.0.asc | \\
+   sudo gpg -o /usr/share/keyrings/mongodb-server-8.0.gpg \\
+   --dearmor
+: 1730809613:0;cd
+: 1730809614:0;wget https://downloads.mongodb.com/compass/mongodb-compass_1.44.5_amd64.deb
+: 1730809656:0;[200~sudo apt install ./mongodb-compass_1.44.5_amd64.deb~
+: 1730809663:0;sudo apt install ./mongodb-compass_1.44.5_amd64.deb~
+: 1730809686:0;sudo apt install ./mongodb-compass_1.44.5_amd64.deb
+: 1730809714:0;ls -lrt
+: 1730809733:0;sudo apt install ./mongodb-compass_1.44.5_amd64.deb
+: 1730809748:0;sudo apt install -f
+: 1730810469:0;python common/blob/blob_manager_async.py
+: 1730811714:0;git status
+: 1730811721:0;git diff common/blob/blob_manager_async.py
+: 1730811826:0;git status
+: 1730811831:0;rm mongodb-server-8.0_v1.gpg
+: 1730811845:0;git diff common/blob/blob_manager_async.py
+: 1730811853:0;git add common/blob/blob_manager_async.py
+: 1730811857:0;git diff common/gcp_utils.py
+: 1730811860:0;git add common/gcp_utils.py
+: 1730811868:0;git commit -m "simplifying gcp blob async"
+: 1730811870:0;git push origin  blob_storage_gcp
+: 1730812173:0;git status
+: 1730812175:0;git diff
+: 1730812182:0;git add api/resources/skills/api.py
+: 1730812190:0;git commit -m "typo fix"
+: 1730812198:0;git push origin  skip_throtting_based_on_skill_id
+: 1730816055:0;sudo apt install golang-go
+: 1730816095:0;which go
+: 1730816116:0;echo export PATH=$HOME/go/bin:/usr/local/go/bin:$PATH >> ~/.zshrc
+: 1730816121:0;go --version
+: 1730816124:0;go version
+: 1730863005:0;python common/blob/blob_manager_async.py
+: 1730863307:0;git status
+: 1730863318:0;git diff common/blob/blob_manager_async.py
+: 1730863329:0;git add common/blob/blob_manager_async.py
+: 1730863340:0;git commit -m "deleting specific folder"
+: 1730863344:0;git push origin blob_storage_gcp
+: 1730865590:0;git status
+: 1730865597:0;git diff common/blob/blob_manager_async.py
+: 1730865602:0;git add common/blob/blob_manager_async.py
+: 1730865618:0;git commit -m "declaring gcp_creds globally"
+: 1730865621:0;git push origin blob_storage_gcp
+: 1730867442:0;sudo apt-get update\
+sudo apt-get install apt-transport-https ca-certificates curl gnupg lsb-release
+: 1730867463:0;sudo mkdir -p /etc/apt/keyrings\
+curl -sLS https://packages.microsoft.com/keys/microsoft.asc |\
+  gpg --dearmor | sudo tee /etc/apt/keyrings/microsoft.gpg > /dev/null\
+sudo chmod go+r /etc/apt/keyrings/microsoft.gpg
+: 1730867470:0;ls -lrt
+: 1730867473:0;git status
+: 1730867486:0;AZ_DIST=$(lsb_release -cs)\
+echo "Types: deb\
+URIs: https://packages.microsoft.com/repos/azure-cli/\
+Suites: ${AZ_DIST}\
+Components: main\
+Architectures: $(dpkg --print-architecture)\
+Signed-by: /etc/apt/keyrings/microsoft.gpg" | sudo tee /etc/apt/sources.list.d/azure-cli.sources
+: 1730867494:0;sudo apt-get update\
+sudo apt-get install azure-cli
+: 1730867745:0;curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
+: 1730867774:0;git stats
+: 1730867778:0;git status
+: 1730867787:0;kubectl
+: 1730867793:0;rm kubectl
+: 1730867794:0;cd
+: 1730867796:0;curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
+: 1730867836:0;echo "$(cat kubectl.sha256)  kubectl" | sha256sum --check
+: 1730867846:0;sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
+: 1730867857:0;kubectl version --client
+: 1730867864:0;kubectl version --client --output=yaml
+: 1730867889:0;kubectl cluster-info
+: 1730867915:0;source <(kubectl completion zsh)
+: 1730868220:0;az login
+: 1730868241:0;kubectl cluster-info
+: 1730868328:0;kubectl get pods -n kube-system\
+
+: 1730868353:0;az account set --subscription 6e1c147d-e3fa-4db8-923d-bb81a6ac3acf
+: 1730868359:0;az aks get-credentials --resource-group ai360-dev-ai-infra --name AI360-Dev-API --overwrite-existing
+: 1730868368:0;kubectl get deployments --all-namespaces=true
+: 1730872309:0;git status
+: 1730872348:0;sudo apt install apt-transport-https curl gnupg -y\
+curl -fsSL https://bazel.build/bazel-release.pub.gpg | gpg --dearmor >bazel-archive-keyring.gpg\
+sudo mv bazel-archive-keyring.gpg /usr/share/keyrings\
+echo "deb [arch=amd64 signed-by=/usr/share/keyrings/bazel-archive-keyring.gpg] https://storage.googleapis.com/bazel-apt stable jdk1.8" | sudo tee /etc/apt/sources.list.d/bazel.list
+: 1730876648:0;cd -
+: 1730876651:0;git status
+: 1730876666:0;git diff common/blob/blob_manager_async.py
+: 1730876671:0;git add common/blob/blob_manager_async.py
+: 1730876687:0;git commit -m "removing extra code\
+"
+: 1730876690:0;git push origin blob_storage_gcp
+: 1730878497:0;python common/blob/blob_manager_async.py
+: 1730880307:0;# installs nvm (Node Version Manager)\
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.0/install.sh | bash\
+\
+# download and install Node.js (you may need to restart the terminal)\
+nvm install 22\
+\
+# verifies the right Node.js version is in the environment\
+node -v # should print `v22.11.0`\
+\
+# verifies the right npm version is in the environment\
+npm -v # should print `10.9.0`
+: 1730880484:0;nvm install 22
+: 1730880528:0;cd
+: 1730880529:0;ls -lrt
+: 1730880535:0;cd gcp-changes-for-ocr
+: 1730880537:0;cd Platform
+: 1730880541:0;git status
+: 1730880550:0;rm -rf client/blob
+: 1730880561:0;git pull origin GCP-changes-for-OCR
+: 1730880642:0;git status
+: 1730880807:0;nvm install 22
+: 1730880878:0;node --versino
+: 1730880882:0;node -v
+: 1730880887:0;npm -v
+: 1730880921:0;uname -p
+: 1730880964:0;dpkg --print-architecture
+: 1730881026:0;cd
+: 1730881050:0;cp ~/Downloads/temporal /usr/local/bin
+: 1730881066:0;ls -lrt ~/Downloads/temporal 
+: 1730881080:0;sudo cp ~/Downloads/temporal /usr/local/bin
+: 1730881088:0;temporal --version
+: 1730881103:0;temporal server start-dev
+: 1730881188:0;code .
+: 1730881192:0;/home/anupam/.pyenv/versions/3.11.0/bin/python /home/anupam/.vscode/extensions/ms-python.python-2024.18.0-linux-x64/python_files/printEnvVariablesToFile.py /home/anupam/.vscode/extensions/ms-python.python-2024.18.0-linux-x64/python_files/deactivate/zsh/envVars.txt
+: 1730899019:0;pyenv activate pyenv_3_10_0
+: 1730899027:0;pip install temporalio==1.2.0\
+aiofiles~=24.1.0
+: 1730899039:0;pip install aiofiles~=24.1.0
+: 1730899212:0;pyenv activate pyenv_3_10_0
+: 1730899214:0;code .
+: 1730899222:0;/bin/python3 /home/anupam/.vscode/extensions/ms-python.python-2024.18.0-linux-x64/python_files/printEnvVariablesToFile.py /home/anupam/.vscode/extensions/ms-python.python-2024.18.0-linux-x64/python_files/deactivate/zsh/envVars.txt
+: 1730899287:0;pip install google-cloud-vision
+: 1730899364:0;temporal server start-dev
+: 1730899493:0;code .
+: 1730899514:0;temporal operator namespace create document-indexing
+: 1730899553:0;exit
+: 1730899557:0;git status
+: 1730899559:0;code .
+: 1730899568:0;/usr/bin/python3 /home/anupam/.vscode/extensions/ms-python.python-2024.18.0-linux-x64/python_files/printEnvVariablesToFile.py /home/anupam/.vscode/extensions/ms-python.python-2024.18.0-linux-x64/python_files/deactivate/zsh/envVars.txt
+: 1730899608:0;pyenv activate pyenv_3_10_0
+: 1730899609:0;code .
+: 1730899617:0;/usr/bin/python3 /home/anupam/.vscode/extensions/ms-python.python-2024.18.0-linux-x64/python_files/printEnvVariablesToFile.py /home/anupam/.vscode/extensions/ms-python.python-2024.18.0-linux-x64/python_files/deactivate/zsh/envVars.txt
+: 1731035437:0;git status
+: 1731035443:0;cd
+: 1731035444:0;ls -lrt
+: 1731035457:0;mkdir gcp-changes-for-ocr
+: 1731035461:0;cd gcp-changes-for-ocr
+: 1731035463:0;pwd
+: 1731035465:0;cd Platform
+: 1731035466:0;ls
+: 1731035469:0;code .
+: 1731035480:0;git diff
+: 1731035493:0;cd
+: 1731035505:0;mkdir gcp-changes-for-ocr-v1
+: 1731035508:0;cd gcp-changes-for-ocr-v1
+: 1731035511:0;git clone git@github.com:Lab45-CoreAI/Platform.git
+: 1731037685:0;cd Platform
+: 1731037715:0;git checkout GCP-changes-for-OCR
+: 1731037735:0;git status
+: 1731037737:0;exit
+: 1731037742:0;git diff
+: 1731037773:0;pyenv activate pyenv_3_10_0
+: 1731037774:0;code .
+: 1731037793:0;/bin/python3 /home/anupam/.vscode/extensions/ms-python.python-2024.18.0-linux-x64/python_files/printEnvVariablesToFile.py /home/anupam/.vscode/extensions/ms-python.python-2024.18.0-linux-x64/python_files/deactivate/zsh/envVars.txt
+: 1731042533:0;pwd
+: 1731042549:0;cd
+: 1731042552:0;mkdir main
+: 1731042557:0;cd main
+: 1731042561:0;git clone git@github.com:Lab45-CoreAI/Platform.git
+: 1731043144:0;cd Platform
+: 1731043149:0;code .
+: 1731044257:0;pwd
+: 1731044264:0;pyenv activate pyenv_3_10_0
+: 1731044267:0;pwd
+: 1731044271:0;cd hurl
+: 1731044272:0;ls
+: 1731044277:0;./run_tests.sh
+: 1731044378:0;VERSION=5.0.1\
+curl --location --remote-name https://github.com/Orange-OpenSource/hurl/releases/download/$VERSION/hurl_$\{VERSION\}_amd64.deb\
+sudo apt update && sudo apt install ./hurl_${VERSION}_amd64.deb
+: 1731044410:0;ls -lrt
+: 1731044470:0;cd
+: 1731044502:0;VERSION=5.0.1\
+curl --location --remote-name https://github.com/Orange-OpenSource/hurl/releases/download/$VERSION/hurl_5.0.1_amd64.deb\
+sudo apt update && sudo apt install ./hurl_5.0.1_amd64.deb
+: 1731045542:0;./run_tests.sh
+: 1731045562:0;/bin/python3 /home/anupam/.vscode/extensions/ms-python.python-2024.18.0-linux-x64/python_files/printEnvVariablesToFile.py /home/anupam/.vscode/extensions/ms-python.python-2024.18.0-linux-x64/python_files/deactivate/zsh/envVars.txt
+: 1731045575:0;pyenv activate pyenv_3_10_0
+: 1731046857:0;cd main
+: 1731046858:0;cd Platform
+: 1731046860:0;code .
+: 1731046872:0;pyenv activate pyenv_3_10_0
+: 1731046874:0;code .
+: 1731046879:0;/bin/python3 /home/anupam/.vscode/extensions/ms-python.python-2024.18.0-linux-x64/python_files/printEnvVariablesToFile.py /home/anupam/.vscode/extensions/ms-python.python-2024.18.0-linux-x64/python_files/deactivate/zsh/envVars.txt
+: 1731046939:0;cd hurl
+: 1731047086:0;pyenv activate pyenv_3_10_0
+: 1731047090:0;exit
+: 1731047094:0;ext
+: 1731047096:0;exit
+: 1731047108:0;code .
+: 1731047125:0;cd ..
+: 1731047127:0;code .
+: 1731047132:0;/bin/python3 /home/anupam/.vscode/extensions/ms-python.python-2024.18.0-linux-x64/python_files/printEnvVariablesToFile.py /home/anupam/.vscode/extensions/ms-python.python-2024.18.0-linux-x64/python_files/deactivate/zsh/envVars.txt
+: 1731048128:0;ls
+: 1731048142:0;ls /home/anupam/.local/
+: 1731048143:0;ls -lrt
+: 1731048158:0;cd /home/anupam/.local/
+: 1731048158:0;ls
+: 1731048163:0;cd
+: 1731048174:0;mkdir -p /home/anupam/.local/lib
+: 1731048195:0;pip3 install --upgrade pip\
+
+: 1731048206:0;ls /home/anupam/.local/lib
+: 1731048207:0;ls
+: 1731048213:0;cd -
+: 1731048214:0;cd 
+: 1731048221:0;cd main/Platform
+: 1731048230:0;code .
+: 1731048235:0;/usr/bin/python3 /home/anupam/.vscode/extensions/ms-python.python-2024.18.0-linux-x64/python_files/printEnvVariablesToFile.py /home/anupam/.vscode/extensions/ms-python.python-2024.18.0-linux-x64/python_files/deactivate/zsh/envVars.txt
+: 1731048263:0;pyenv install 3.10.0
+: 1731048279:0;which python
+: 1731048305:0;pyenv install 3.10.11
+: 1731049232:0;pyenv virtualenv 3.10.11 pyenv_3_10_11
+: 1731049281:0;mkdir -p /home/anupam/.local/lib/python3.10
+: 1731049305:0;python3.10 -m ensurepip --upgrade\
+
+: 1731049348:0;vim ~/.zshrc
+: 1731049380:0;pip freeze
+: 1731049386:0;pwd
+: 1731049389:0;ls -lrt
+: 1731049407:0;find . -name "requirements.txt" -exec pip install -r {} \;\
+
+: 1731049430:0;exit
+: 1731049707:0;cd main
+: 1731049709:0;cd Platform
+: 1731049721:0;pyenv virtualenv 3.10.11 pyenv_3_10_11
+: 1731049727:0;find . -name "requirements.txt" -exec pip install -r {} \;\
+
+: 1731049741:0;pyenv activate pyenv_3_10_11
+: 1731049743:0;find . -name "requirements.txt" -exec pip install -r {} \;\
+
+: 1731049751:0;pyenv activate pyenv_3_10_0
+: 1731049753:0;code .
+: 1731049761:0;/bin/python3 /home/anupam/.vscode/extensions/ms-python.python-2024.18.0-linux-x64/python_files/printEnvVariablesToFile.py /home/anupam/.vscode/extensions/ms-python.python-2024.18.0-linux-x64/python_files/deactivate/zsh/envVars.txt
+: 1731049950:0;ls ~/.local/lib/python3.10
+: 1731049950:0;ls
+: 1731049962:0;cd ~/.local/lib/python3.10
+: 1731049963:0;ls
+: 1731049968:0;which python
+: 1731049972:0;python
+: 1731050015:0;ls -lrt
+: 1731050055:0;ls ~/.pyenv/
+: 1731050088:0;ls ~/.pyenv/versions/3.10.0/lib/python3.10/site-packages
+: 1731050103:0;cd
+: 1731050108:0;ls ~/.local/lib
+: 1731050109:0;ls
+: 1731050180:0;vim ~/.zshrc
+: 1731050207:0;ls -lrt
+: 1731050213:0;cd gcp-changes-for-ocr-v1
+: 1731050213:0;ls
+: 1731050215:0;cd Platform
+: 1731050220:0;code .
+: 1731050226:0;/bin/python3 /home/anupam/.vscode/extensions/ms-python.python-2024.18.0-linux-x64/python_files/printEnvVariablesToFile.py /home/anupam/.vscode/extensions/ms-python.python-2024.18.0-linux-x64/python_files/deactivate/zsh/envVars.txt
+: 1731050282:0;pwd
+: 1731050284:0;cd hurl
+: 1731050286:0;./run_tests.sh
+: 1731050594:0;pwd
+: 1731050596:0;cd hurl
+: 1731050599:0;./run_tests.sh
+: 1731050664:0;./run_tests.sh 1
+: 1731050698:0;sudo apt install parallel
+: 1731051499:0;./run_tests.sh 1
+: 1731056118:0;cd
+: 1731056119:0;ls -lrt
+: 1731056125:0;cd gcp-changes-for-ocr
+: 1731056128:0;cd Platform
+: 1731056130:0;code .
+: 1731056136:0;/bin/python3 /home/anupam/.vscode/extensions/ms-python.python-2024.18.0-linux-x64/python_files/printEnvVariablesToFile.py /home/anupam/.vscode/extensions/ms-python.python-2024.18.0-linux-x64/python_files/deactivate/zsh/envVars.txt
+: 1731056540:0;cd
+: 1731056550:0;temporal server start-dev
+: 1731057148:0;cd main
+: 1731057150:0;cd hur
+: 1731057153:0;cd Platform
+: 1731057154:0;cd hurl
+: 1731057155:0;ls
+: 1731057162:0;cd idp
+: 1731057162:0;ls
+: 1731057168:0;pyenv activate pyenv_3_10_0
+: 1731057176:0;python generate_jwt_superadmin.py
+: 1731057216:0;sudo systemctl status mongod
+: 1731057234:0;sudo systemctl start mongod
+: 1731057249:0;sudo systemctl status mongod
+: 1731058811:0;temporal operator namespace create document-indexing
+: 1731068965:0;pwd
+: 1731068967:0;ls -lrt
+: 1731068969:0;cd ..
+: 1731068969:0;ls
+: 1731068979:0;pwd
+: 1731068983:0;ls -lrt
+: 1731068990:0;pyenv activate pyenv_3_10_0
+: 1731069036:0;export DEV_ENV_UA_MANAGED_IDENTITY_ID=abdb319e-7471-4d0b-a79f-c8604fd56489\
+export DEV_ENV_VAULT_URI=https://pltintegtestdevkv.vault.azure.net/\
+export INTEG_TESTING_ENABLED=1\
+export SSL_CERT_FILE=$(python -m certifi)
+: 1731069044:0;python indexing_worker.py
+: 1731069418:0;pip install nltk
+: 1731129880:0;temporal server start-dev
+: 1731238852:0;ls -lrt
+: 1731238864:0;pwd
+: 1731238866:0;sudo systemctl status mongod
+: 1731238888:0;sudo systemctl start mongod
+: 1731238892:0;ls -lrt
+: 1731238899:0;cd gcp-changes-for-ocr
+: 1731238903:0;ls -lrt
+: 1731238905:0;cd Platform
+: 1731238908:0;code .
+: 1731238915:0;/bin/python3 /home/anupam/.vscode/extensions/ms-python.python-2024.18.0-linux-x64/python_files/printEnvVariablesToFile.py /home/anupam/.vscode/extensions/ms-python.python-2024.18.0-linux-x64/python_files/deactivate/zsh/envVars.txt
+: 1731238961:0;cd ..
+: 1731238961:0;ls
+: 1731238963:0;cd ..
+: 1731238963:0;ls
+: 1731238965:0;ls -lrt
+: 1731238982:0;cd gcp-changes-for-ocr-v1
+: 1731238983:0;cd Platform
+: 1731239005:0;code .
+: 1731239011:0;/usr/bin/python3 /home/anupam/.vscode/extensions/ms-python.python-2024.18.1-linux-x64/python_files/printEnvVariablesToFile.py /home/anupam/.vscode/extensions/ms-python.python-2024.18.1-linux-x64/python_files/deactivate/zsh/envVars.txt
+: 1731239790:0;pyenv activate pyenv_3_10_0
+: 1731239795:0;code .
+: 1731239803:0;pyenv activate pyenv_3_10_0
+: 1731239807:0;code .
+: 1731239823:0;temporal server start-dev
+: 1731239893:0;pwd
+: 1731239895:0;ls -lrt
+: 1731239908:0;python indexing_worker.py
+: 1731239927:0;pwd
+: 1731239930:0;ls -lrt
+: 1731239938:0;export DEV_ENV_UA_MANAGED_IDENTITY_ID=abdb319e-7471-4d0b-a79f-c8604fd56489\
+export DEV_ENV_VAULT_URI=https://pltintegtestdevkv.vault.azure.net/\
+export INTEG_TESTING_ENABLED=1\
+export SSL_CERT_FILE=$(python -m certifi)
+: 1731239942:0;python indexing_worker.py
+: 1731240041:0;temporal operator namespace create document-indexing
+: 1731240054:0;python indexing_worker.py
+: 1731240061:0;pyenv activate pyenv_3_10_0
+: 1731240072:0;temporal server start-dev
+: 1731240085:0;temporal operator namespace create document-indexing
+: 1731240200:0;python indexing_worker.py
+: 1731240463:0;git status
+: 1731240476:0;git pull origin GCP-changes-for-OCR
+: 1731240504:0;pythhon indexing_worker.py
+: 1731240512:0;python indexing_worker.py
+: 1731275615:0;exit
+: 1731275650:0;ls -lrt
+: 1731275663:0;cd Platform
+: 1731275666:0;git diff
+: 1731275673:0;code .
+: 1731275678:0;/bin/python3 /home/anupam/.vscode/extensions/ms-python.python-2024.18.1-linux-x64/python_files/printEnvVariablesToFile.py /home/anupam/.vscode/extensions/ms-python.python-2024.18.1-linux-x64/python_files/deactivate/zsh/envVars.txt
+: 1731275746:0;cd
+: 1731275747:0;ls -lrt
+: 1731275751:0;cd gcp-changes-for-ocr
+: 1731275752:0;cd Platform
+: 1731275754:0;code .
+: 1731275759:0;/bin/python3 /home/anupam/.vscode/extensions/ms-python.python-2024.18.1-linux-x64/python_files/printEnvVariablesToFile.py /home/anupam/.vscode/extensions/ms-python.python-2024.18.1-linux-x64/python_files/deactivate/zsh/envVars.txt
+: 1731279359:0;git status
+: 1731279372:0;git add common/file_manager.py
+: 1731279384:0;git diff common/blob/blob_manager.py
+: 1731279401:0;git log 
+: 1731279415:0;git diff common/blob/blob_manager.py
+: 1731279425:0;git add common/blob/blob_manager.py
+: 1731279431:0;git diff common/blob/blob_manager_async.py
+: 1731279440:0;git add common/blob/blob_manager_async.py
+: 1731279442:0;git status
+: 1731279457:0;git commit -m "changes for azure blob as well"
+: 1731279461:0;git push origin blob_storage_gcp
+: 1731279480:0;git pull origin blob_storage_gcp
+: 1731279591:0;pyenv activate pyenv_3_10_0
+: 1731279593:0;git status
+: 1731279622:0;cd common
+: 1731279625:0;cd blob
+: 1731279631:0;python -m unittest discover -s . -p 'blob_manager_test.py' -v
+: 1731279655:0;pwd
+: 1731279657:0;cd ..
+: 1731279659:0;pwd
+: 1731279662:0;python -m unittest discover -s . -p 'blob_manager_test.py' -v
+: 1731282059:0;az logout
+: 1731282064:0;python -m unittest discover -s . -p 'blob_manager_test.py' -v
+: 1731295446:0;git status
+: 1731295452:0;git diff common/blob/blob_manager.py
+: 1731295458:0;git add common/blob/blob_manager.py
+: 1731295464:0;git diff common/blob/blob_manager_async.py
+: 1731295474:0;git add common/blob/blob_manager_async.py
+: 1731295484:0;git diff common/blob/blob_manager_test.py
+: 1731295487:0;git add common/blob/blob_manager_test.py
+: 1731295490:0;git status
+: 1731295520:0;git commit -m "adding test cases for blob manager sync"
+: 1731295523:0;git push origin blob_storage_gcp
+: 1731295864:0;git rm common/blob/blob_manager_async_test.py
+: 1731295880:0;git commit -m "removing blob manager async unit test"
+: 1731295883:0;git push origin blob_storage_gcp
+: 1731296423:0;git rm common/gcp_test.py
+: 1731296432:0;git commit -m "removing gcp test file"
+: 1731296435:0;git push origin blob_storage_gcp
+: 1731296644:0;git status
+: 1731296650:0;git diff common/blob/blob_manager.py
+: 1731296661:0;git add common/blob/blob_manager.py
+: 1731296667:0;git diff common/blob/blob_manager_async.py
+: 1731296673:0;git add common/blob/blob_manager_async.py
+: 1731296689:0;git commit -m "removing commented code"
+: 1731296692:0;git push origin blob_storage_gcp
+: 1731297064:0;cd
+: 1731297069:0;mkdir CB-1087
+: 1731297070:0;cd CB-1087
+: 1731297073:0;git clone git@github.com:Lab45-CoreAI/Platform.git
+: 1731297216:0;cd Platform
+: 1731297227:0;git checkout cb-1087
+: 1731297238:0;git checkout -b cb-1087
+: 1731297246:0;code .
+: 1731297303:0;git status
+: 1731297304:0;git diff
+: 1731297314:0;git add infra/validation_service/internal/validation_server_impl.go
+: 1731297343:0;git commit -m "removing instance name check if skill based throtting config present"
+: 1731297350:0;git push origin cb-1087
+: 1731316460:0;pyenv activate pyenv_3_10_0
+: 1731316463:0;ipython
+: 1731324010:0;pwd
+: 1731324014:0;cd common
+: 1731324018:0;python blob/blob_manager.py
+: 1731324666:0;ls -lrt
+: 1731324670:0;cd ~/Downloads
+: 1731324671:0;ls -lrt
+: 1731324678:0;pwd
+: 1731324753:0;python blob/blob_manager.py
+: 1731325606:0;git status
+: 1731326051:0;python blob/blob_manager.py
+: 1731382179:0;ls -lrt
+: 1731382184:0;python -m unittest discover -s . -p 'blob_manager_test.py' -v
+: 1731382291:0;git status
+: 1731382317:0;git diff common/blob/blob_manager.py
+: 1731382334:0;git add common/blob/blob_manager.py
+: 1731382335:0;git status
+: 1731382343:0;git diff common/blob/blob_manager_test.py
+: 1731382349:0;git add common/blob/blob_manager_test.py
+: 1731382355:0;git commit -m "refactoring for blob storage"
+: 1731382360:0;git push origin blob_storage_gcp
+: 1731382654:0;python -m unittest discover -s . -p 'blob_manager_test.py' -v
+: 1731382909:0;git status
+: 1731382933:0;git add common/blob/blob_manager.py
+: 1731382936:0;git commit -m "refactoring for blob storage"
+: 1731382939:0;git push origin blob_storage_gcp
+: 1731384010:0;python -m unittest discover -s . -p 'blob_manager_test.py' -v
+: 1731391230:0;ls -lrt
+: 1731391232:0;cd Platform
+: 1731391241:0;ls -lrt
+: 1731391860:0;ps -auf | grep pycharm
+: 1731391870:0;kill 8604
+: 1731391876:0;kill 8603
+: 1731391882:0;ps -auf | grep pycharm
+: 1731391890:0;kill 8642
+: 1731391893:0;ps -auf | grep pycharm
+: 1731391917:0;kill 17736
+: 1731391920:0;ps -auf | grep pycharm
+: 1731391928:0;kill 2560
+: 1731391936:0;ps -auf | grep pycharm
+: 1731391998:0;pgrep -f pycharm
+: 1731392036:0;kill 6365 6473 6522 6523 6525 6539 6656
+: 1731392039:0;pgrep -f pycharm
+: 1731392060:0;kill 6365 8994
+: 1731392067:0;pgrep -f pycharm
+: 1731392282:0;kill -9 6365 
+: 1731392289:0;kill -9 9049 
+: 1731392294:0;pgrep -f pycharm
+: 1731395388:0;python -m unittest discover -s . -p 'blob_manager_test.py' -v
+: 1731397038:0;git status
+: 1731397045:0;git diff common/blob/blob_manager.py
+: 1731397063:0;git add common/blob/blob_manager.py
+: 1731397069:0;git diff common/blob/blob_manager_test.py
+: 1731397079:0;git add common/blob/blob_manager_test.py
+: 1731397084:0;git status
+: 1731397090:0;git commit -m "refactoring for blob storage"
+: 1731397093:0;git push origin blob_storage_gcp
+: 1731397450:0;python -m unittest discover -s . -p 'blob_manager_test.py' -v
+: 1731397538:0;git status
+: 1731397544:0;git diff common/blob/blob_manager.py
+: 1731397553:0;git add common/blob/blob_manager.py
+: 1731397555:0;git commit -m "refactoring for blob storage"
+: 1731397558:0;git push origin blob_storage_gcp
+: 1731397756:0;cd
+: 1731397760:0;ls -lrt
+: 1731397806:0;mkdir skip_throttling_based_on_skill_id
+: 1731397808:0;cd skip_throttling_based_on_skill_id
+: 1731397811:0;git clone git@github.com:Lab45-CoreAI/Platform.git
+: 1731397892:0;cd Platform
+: 1731397896:0;git checkout skip_throtting_based_on_skill_id
+: 1731397907:0;code .
+: 1731397967:0;/usr/bin/python3 /home/anupam/.vscode/extensions/ms-python.python-2024.18.1-linux-x64/python_files/printEnvVariablesToFile.py /home/anupam/.vscode/extensions/ms-python.python-2024.18.1-linux-x64/python_files/deactivate/zsh/envVars.txt
+: 1731398303:0;pyenv activate pyenv_3_10_0
+: 1731398312:0;code .
+: 1731398318:0;/bin/python3 /home/anupam/.vscode/extensions/ms-python.python-2024.18.1-linux-x64/python_files/printEnvVariablesToFile.py /home/anupam/.vscode/extensions/ms-python.python-2024.18.1-linux-x64/python_files/deactivate/zsh/envVars.txt
+: 1731478586:0;sudo systemctl start mongod
+: 1731484052:0;python -m unittest discover -s . -p 'blob_manager_test.py' -v
+: 1731487795:0;git status
+: 1731487804:0;git diff common/blob/blob_manager
+: 1731487815:0;git diff common/blob/blob_manager.py
+: 1731487821:0;git add common/blob/blob_manager.py
+: 1731487826:0;git diff common/blob/blob_manager_test.py
+: 1731487843:0;python -m unittest discover -s . -p 'blob_manager_test.py' -v
+: 1731487845:0;pyenv activate pyenv_3_10_0
+: 1731487847:0;python -m unittest discover -s . -p 'blob_manager_test.py' -v
+: 1731487854:0;git add common/blob/blob_manager_test.py
+: 1731487869:0;git commit -m "updating test case for gcp blob"
+: 1731487872:0;git push origin blob_storage_gcp
+: 1731492915:0;cd
+: 1731492916:0;ls -lrt
+: 1731492919:0;cd CB-1087
+: 1731492920:0;cd Platform
+: 1731492923:0;code .
+: 1731492930:0;pyenv activate pyenv_3_10_0
+: 1731492943:0;code .
+: 1731492988:0;/usr/bin/python3 /home/anupam/.vscode/extensions/ms-python.python-2024.18.1-linux-x64/python_files/printEnvVariablesToFile.py /home/anupam/.vscode/extensions/ms-python.python-2024.18.1-linux-x64/python_files/deactivate/zsh/envVars.txt
+: 1731493018:0;find . -name "requirements.txt" -exec pip install -r {} \;\
+
+: 1731494406:0;ls -lrt
+: 1731494410:0;cd infra
+: 1731494410:0;ls
+: 1731494414:0;cd validation_service
+: 1731494558:0;sudo apt install apt-transport-https curl gnupg -y\
+curl -fsSL https://bazel.build/bazel-release.pub.gpg | gpg --dearmor >bazel-archive-keyring.gpg\
+sudo mv bazel-archive-keyring.gpg /usr/share/keyrings\
+echo "deb [arch=amd64 signed-by=/usr/share/keyrings/bazel-archive-keyring.gpg] https://storage.googleapis.com/bazel-apt stable jdk1.8" | sudo tee /etc/apt/sources.list.d/bazel.list
+: 1731494571:0;sudo apt update && sudo apt install bazel
+: 1731494924:0;pwd
+: 1731495179:0;ls -lrt
+: 1731495196:0;ls -lrt cmd
+: 1731495201:0;pwd
+: 1731495210:0;ls -lrt
+: 1731495217:0;ls cmd
+: 1731495231:0;ls -lrt cmd/validation_service
+: 1731495305:0;bazel build //cmd/validation_service:validation_service
+: 1731495327:0;sudo apt update && sudo apt install bazel-6.4.0\
+
+: 1731495373:0;bazel build //cmd/validation_service:validation_service
+: 1731495567:0;bazel run //cmd/validation_service:validation_service
+: 1731557346:0;git status
+: 1731557362:0;git diff infra/validation_service/internal/validation_server_impl.go
+: 1731557500:0;git add infra/validation_service/internal/validation_server_impl.go
+: 1731557542:0;git commit -m "avoid throwing error in case of skillInstance not matching"
+: 1731557546:0;git push origin cb-1087
+: 1731559911:0;cd
+: 1731559918:0;cd skip_throttling_based_on_skill_id
+: 1731559920:0;cd Platform
+: 1731559923:0;git diff
+: 1731559933:0;git status
+: 1731559938:0;git checkout common/utils.py
+: 1731559944:0;git pull origin main
+: 1731559957:0;git config pull.rebase false
+: 1731559960:0;git pull origin main
+: 1731559969:0;code .
+: 1731560028:0;/bin/python3 /home/anupam/.vscode/extensions/ms-python.python-2024.20.0-linux-x64/python_files/printEnvVariablesToFile.py /home/anupam/.vscode/extensions/ms-python.python-2024.20.0-linux-x64/python_files/deactivate/zsh/envVars.txt
+: 1731560040:0;git status
+: 1731560046:0;git diff api/resources/skills/api.py
+: 1731560053:0;git add api/resources/skills/api.py
+: 1731560065:0;git commit -m "pulled latest main to local"
+: 1731560069:0;git push origin skip_throtting_based_on_skill_id
+: 1731562038:0;git status
+: 1731562043:0;git diff common/utils.py
+: 1731562049:0;git add common/utils.py
+: 1731562058:0;git diff api/resources/skills/schema.py
+: 1731562067:0;git add api/resources/skills/schema.py
+: 1731562073:0;git diff api/resources/skills/api.py
+: 1731562078:0;git add api/resources/skills/api.py
+: 1731562087:0;git commit -m "changes based on review comment"
+: 1731562092:0;git push origin skip_throtting_based_on_skill_id
+: 1731564468:0;git status
+: 1731564474:0;git diff api/resources/skills/schema.py
+: 1731564477:0;git add api/resources/skills/schema.py
+: 1731564480:0;git commit -m "changes based on review comment"
+: 1731564485:0;git push origin skip_throtting_based_on_skill_id
+: 1731564527:0;pwd
+: 1731564529:0;git status
+: 1731574847:0;cd
+: 1731574848:0;ls -lrt
+: 1731645778:0;git status
+: 1731649279:0;git add common/deployment_platform.py
+: 1731649286:0;git diff common/blob/blob_factory.py
+: 1731649289:0;git add common/blob/blob_factory.py
+: 1731649294:0;git status
+: 1731649303:0;git diff common/blob/blob_manager.py
+: 1731649374:0;git add common/blob/blob_manager.py
+: 1731649376:0;git status
+: 1731649392:0;git checkout common/blob/blob_manager_async.py
+: 1731649401:0;git rm common/blob/blob_manager_async.py
+: 1731649403:0;git status
+: 1731649412:0;git commit -m "addressing review comments"
+: 1731649416:0;git push origin blob_storage_gcp
+: 1731649426:0;git pull origin blob_storage_gcp
+: 1731649435:0;git config pull.rebase false
+: 1731649437:0;git pull origin blob_storage_gcp
+: 1731649454:0;git checkout api/resources/skills/api.py
+: 1731649467:0;git diff common/feature_flags.py
+: 1731649475:0;git checkout common/feature_flags.py
+: 1731649477:0;git pull origin blob_storage_gcp
+: 1731649497:0;git pull origin main
+: 1731649504:0;git push origin blob_storage_gcp
+: 1731662399:0;cd
+: 1731662401:0;cd skip_throttling_based_on_skill_id
+: 1731662403:0;cd Platform
+: 1731662407:0;cd infra
+: 1731662411:0;cd validation_service
+: 1731662492:0;bazel run //:validation_service_unit_test
+: 1731662641:0;cd
+: 1731662642:0;ls -lrt
+: 1731662647:0;cd CB-1087
+: 1731662649:0;cd Platform
+: 1731662651:0;git status
+: 1731662658:0;cd infra
+: 1731662660:0;cd validation_service
+: 1731662662:0;bazel run //:validation_service_unit_test
+: 1731662709:0;code .
+: 1731663010:0;bazel run //:validation_service_unit_test
+: 1731663336:0;sudo apt remove golang-go\
+sudo apt remove --purge golang*\
+
+: 1731663441:0;go version
+: 1731663452:0;bazel run //:validation_service_unit_test
+: 1731663560:0;sudo apt upgrade golang-go
+: 1731664088:0;go version
+: 1731664219:0;bazel run //:validation_service_unit_test
+: 1731668260:0;sudo apt remove golang-go\
+sudo apt remove --purge golang*\
+
+: 1731668273:0;go version
+: 1731668288:0;cd
+: 1731668316:0;tar -C /usr/local -xzf ~/Downloads/go1.23.3.linux-amd64.tar.gz
+: 1731668359:0;go version
+: 1731668366:0;which go
+: 1731668445:0;wget https://go.dev/dl/go1.21.4.linux-amd64.tar.gz -O go.tar.gz
+: 1731668475:0;sudo tar -xzvf go.tar.gz -C /usr/local
+: 1731668493:0;cd /usr/local
+: 1731668493:0;ls
+: 1731668507:0;cd go
+: 1731668507:0;ls
+: 1731668538:0;echo export PATH=$HOME/go/bin:/usr/local/go/bin:$PATH >> ~/.zshrc
+: 1731668541:0;cd -
+: 1731668542:0;cd
+: 1731668551:0;source ~/.zshrc
+: 1731668559:0;go version
+: 1731668569:0;vim test.go
+: 1731668606:0;go run test.go
+: 1731668700:0;which go
+: 1731668702:0;go version
+: 1731668722:0;/usr/bin/go
+: 1731668726:0;exit
+: 1731668736:0;git sexit
+: 1731668737:0;exit
+: 1731675781:0;pyenv activate pyenv_3_10_0
+: 1731675782:0;ipython
+: 1731675806:0;ls -lrt
+: 1731675812:0;cd Platform
+: 1731675812:0;ls
+: 1731675814:0;code .
+: 1731675820:0;/bin/python3 /home/anupam/.vscode/extensions/ms-python.python-2024.20.0-linux-x64/python_files/printEnvVariablesToFile.py /home/anupam/.vscode/extensions/ms-python.python-2024.20.0-linux-x64/python_files/deactivate/zsh/envVars.txt
+: 1731676832:0;git status
+: 1731676837:0;git diff common/__init__.py
+: 1731676884:0;git add common/__init__.py
+: 1731676889:0;git diff common/blob/blob_manager.py
+: 1731676898:0;git add common/blob/blob_manager.py
+: 1731676900:0;git status
+: 1731676907:0;git diff common/gcp_utils.py
+: 1731676911:0;git add common/gcp_utils.py
+: 1731676917:0;git status
+: 1731676920:0;git commit -m "addressing review comments"
+: 1731676924:0;git push origin blob_storage_gcp
+: 1731678723:0;git status
+: 1731678728:0;git if common/__init__.py
+: 1731678733:0;git diff common/__init__.py
+: 1731678754:0;git add common/__init__.py
+: 1731678757:0;git commit -m "addressing review comments"
+: 1731678759:0;git push origin blob_storage_gcp
+: 1731900769:0;ls -lrt
+: 1731900827:0;cd CB-1087
+: 1731900829:0;cd Platform
+: 1731900832:0;git status
+: 1731900842:0;git diff infra/validation_service/internal/validation_server_private_functions_test.go
+: 1731900850:0;git add infra/validation_service/internal/validation_server_private_functions_test.go
+: 1731900859:0;cd infra/validation_service
+: 1731900863:0;bazel run //:validation_service_unit_test
+: 1731900922:0;git commit -m "Fixing private functions"
+: 1731900927:0;git push origin cb-1087
+: 1731900952:0;git pull origin cb-1087
+: 1731900962:0;git config pull.rebase false
+: 1731900965:0;git pull origin cb-1087
+: 1731901001:0;git status
+: 1731901005:0;git log
+: 1731901010:0;git push origin cb-1087
+: 1731901751:0;code .
+: 1731908123:0;git status
+: 1731908135:0;git diff temporal_workers/common.py
+: 1731908146:0;git dif temporal_workers/requirements.txt
+: 1731908152:0;git diff temporal_workers/requirements.txt
+: 1731908156:0;git add temporal_workers/requirements.txt
+: 1731908168:0;git commit -m "fixing private functions"
+: 1731908173:0;git push origin blob_storage_gcp
+: 1731909815:0;pyenv activate pyenv_3_10_0
+: 1731909819:0;ipython
+: 1731912804:0;git status
+: 1731912814:0;git diff common/deployment_platform.py
+: 1731912836:0;git add common/deployment_platform.py
+: 1731912838:0;git status
+: 1731912848:0;git diff common/blob/blob_factory.py
+: 1731912854:0;git add common/blob/blob_factory.py
+: 1731912863:0;git commit -m "addressing review comments"
+: 1731912865:0;git push origin blob_storage_gcp
+: 1731915300:0;ls -lrt
+: 1731915308:0;cd Platform
+: 1731915310:0;code .
+: 1731915316:0;/bin/python3 /home/anupam/.vscode/extensions/ms-python.python-2024.20.0-linux-x64/python_files/printEnvVariablesToFile.py /home/anupam/.vscode/extensions/ms-python.python-2024.20.0-linux-x64/python_files/deactivate/zsh/envVars.txt
+: 1731915332:0;git status
+: 1731915341:0;git diff temporal_workers/requirements.txt
+: 1731915345:0;git add temporal_workers/requirements.txt
+: 1731915371:0;git commit -m "removing extra strenum from temporal requirements.txt"
+: 1731915375:0;git push origin blob_storage_gcp
+: 1731915640:0;git pull origin blob_storage_gcp
+: 1731915665:0;git push origin blob_storage_gcp
+: 1731996118:0;cd
+: 1731996120:0;ls -lrt
+: 1731996141:0;mkdir license_manager
+: 1731996143:0;cd license_manager
+: 1731996149:0;git clone git@github.com:Lab45-CoreAI/Platform.git
+: 1731996856:0;pyenv activate pyenv_3_10_0
+: 1731996858:0;ipython
+: 1731997888:0;cd Platform
+: 1731997893:0;git checkout non_saas_tenant_config
+: 1732007696:0;cd
+: 1732007698:0;ls -lrt
+: 1732007726:0;mkdir azure_blog_integration
+: 1732007728:0;cd azure_blog_integration
+: 1732007733:0;git clone git@github.com:Lab45-CoreAI/Platform.git
+: 1732029543:0;ipython
+: 1732029545:0;pyenv activate pyenv_3_10_0
+: 1732029547:0;ipython
+: 1732070507:0;pwd
+: 1732070512:0;ls -lrt
+: 1732070518:0;rm -rf Platform
+: 1732070526:0;git clone git@github.com:Lab45-CoreAI/Platform.git
+: 1732070584:0;cd 
+: 1732070589:0;cd Platform
+: 1732070591:0;cd
+: 1732070595:0;mkdir license_manager
+: 1732070601:0;mkdir license
+: 1732070603:0;cd license
+: 1732070606:0;git clone git@github.com:Lab45-CoreAI/Platform.git
+: 1732071481:0;cd Platform
+: 1732071502:0;git checkout non_saas_tenant_config
+: 1732071507:0;code .
+: 1732071562:0;cd Pl
+: 1732071569:0;git clone git@github.com:Lab45-CoreAI/Platform.git
+: 1732072667:0;cd Platform
+: 1732072748:0;git checkout migrate_codebase_to_blobstorage
+: 1732072760:0;git checkout -b migrate_codebase_to_blob_storage
+: 1732072762:0;code .
+: 1732072786:0;/bin/python3 /home/anupam/.vscode/extensions/ms-python.python-2024.20.0-linux-x64/python_files/printEnvVariablesToFile.py /home/anupam/.vscode/extensions/ms-python.python-2024.20.0-linux-x64/python_files/deactivate/zsh/envVars.txt
+: 1732073382:0;git status
+: 1732073389:0;git diff data_services/metadb_api.py
+: 1732073392:0;git add data_services/metadb_api.py
+: 1732073426:0;git commit -m "migrating blob storage in metadbapi delete_blobs"
+: 1732073431:0;git push origin migrate_codebase_to_blob_storage
+: 1732073764:0;git status
+: 1732073775:0;git diff api/resources/datasets/api.py
+: 1732073803:0;git add api/resources/datasets/api.py
+: 1732073816:0;git commit -m "migrating blob storage in ingest api"
+: 1732073821:0;git push origin migrate_codebase_to_blob_storage
+: 1732074133:0;git status
+: 1732074137:0;git diff data_services/crawler.py
+: 1732074141:0;git add data_services/crawler.py
+: 1732074161:0;git commit -m "migrating blob storage from crawler.py"
+: 1732074167:0;git push origin migrate_codebase_to_blob_storage
+: 1732074660:0;git status
+: 1732074668:0;git diff skills/SOWCommit_AI/sow_commit_ai.py
+: 1732074672:0;git add skills/SOWCommit_AI/sow_commit_ai.py
+: 1732074684:0;git commit -m "migrating blob storage from Sow_commit_ai"
+: 1732074687:0;git push origin migrate_codebase_to_blob_storage
+: 1732076093:0;git status
+: 1732076103:0;git diff skills/Structured_AI/structured_ai_skill.py
+: 1732076105:0;git add skills/Structured_AI/structured_ai_skill.py
+: 1732076117:0;git commit -m "migrating blob storage from structure_ai"
+: 1732076120:0;git push origin migrate_codebase_to_blob_storage
+: 1732076830:0;git status
+: 1732076837:0;git add common/stablediffusion.py
+: 1732076844:0;git diff tools/slidetools.py
+: 1732076851:0;git add tools/slidetools.py
+: 1732076866:0;git commit -m "migration save_with_public_url"
+: 1732076871:0;git push origin migrate_codebase_to_blob_storage
+: 1732077276:0;git status
+: 1732077281:0;git diff common/file_utils.py
+: 1732077298:0;git add common/file_utils.py
+: 1732077307:0;git diff conversation_client/conversation_manager.py
+: 1732077320:0;git status
+: 1732077326:0;git diff conversation_client/conversation_manager.py
+: 1732077330:0;git add conversation_client/conversation_manager.py
+: 1732077354:0;git commit -m "migrating read_file with blob storage"
+: 1732077359:0;git push origin migrate_codebase_to_blob_storage
+: 1732077393:0;git status
+: 1732077878:0;cd
+: 1732077880:0;ls -lrt
+: 1732079502:0;cd CB-1087
+: 1732079504:0;cd Platform
+: 1732079506:0;git diff
+: 1732079510:0;code .
+: 1732079532:0;/usr/bin/python3 /home/anupam/.vscode/extensions/ms-python.python-2024.20.0-linux-x64/python_files/printEnvVariablesToFile.py /home/anupam/.vscode/extensions/ms-python.python-2024.20.0-linux-x64/python_files/deactivate/zsh/envVars.txt
+: 1732079647:0;sudo systemctl start mongod
+: 1732079679:0;pyenv activate pyenv_3_10_0
+: 1732079686:0;cd infra/validation_service
+: 1732079691:0;bazel run //cmd/validation_service:validation_service
+: 1732088958:0;git status
+: 1732088976:0;git checkout -b license_manager_api_layer
+: 1732097316:0;sudo snap install vlc
+: 1732097517:0;snap changes
+: 1732097538:0;sudo snap abort 22
+: 1732097542:0;snap changes
+: 1732097561:0;sudo snap abort 22
+: 1732097564:0;snap changes
+: 1732097569:0;sudo snap install vlc
+: 1732098945:0;/bin/python3 /home/anupam/.vscode/extensions/ms-python.python-2024.20.0-linux-x64/python_files/printEnvVariablesToFile.py /home/anupam/.vscode/extensions/ms-python.python-2024.20.0-linux-x64/python_files/deactivate/zsh/envVars.txt
+: 1732099036:0;pyenv activate pyenv_3_10_0
+: 1732099038:0;git status
+: 1732099065:0;cd infra/admin_service
+: 1732099065:0;ls
+: 1732099068:0;cd proto
+: 1732099068:0;ls
+: 1732099071:0;ls -lrt
+: 1732099137:0;python -m grpc_tools.protoc -I proto --python_out=. --pyi_out=. --grpc_python_out=. ./proto/skill_configuration.proto
+: 1732099140:0;ls -lrt
+: 1732099149:0;pip install grpc-tools
+: 1732099162:0;pip install grpcio-tools
+: 1732154648:0;pip install protobuf
+: 1732154790:0;pwd
+: 1732154808:0;python -m grpc_tools.protoc -I proto --python_out=. --pyi_out=. --grpc_python_out=. license_configuration.proto
+: 1732154815:0;pwd
+: 1732154818:0;cd ..
+: 1732154830:0;python -m grpc_tools.protoc -I proto --python_out=. --pyi_out=. --grpc_python_out=. ./proto/license_configuration.proto
+: 1732170447:0;git status
+: 1732170455:0;cd ..
+: 1732170456:0;git tatus
+: 1732170458:0;git status
+: 1732170462:0;cd ..
+: 1732170465:0;git status
+: 1732170475:0;git add api/resources/onprem_license/
+: 1732170479:0;git add common/license_client/
+: 1732170500:0;git commit -m "tentative changes for license manager api layer"
+: 1732170504:0;git push origin license_manager_api_layer
+: 1732170936:0;pwd
+: 1732170940:0;cd infra/admin_service
+: 1732170942:0;pwd
+: 1732170955:0;bazel run //cmd/admin_service:admin_service
+: 1732171258:0;cd
+: 1732171259:0;wget https://github.com/protocolbuffers/protobuf/releases/download/v23.4/protoc-23.4-linux-x86_64.zip\
+
+: 1732171270:0;unzip protoc-23.4-linux-x86_64.zip -d protoc\
+
+: 1732171276:0;sudo mv protoc/bin/protoc /usr/local/bin/\
+sudo mv protoc/include/* /usr/local/include/\
+
+: 1732171289:0;which protoc 
+: 1732171292:0;protoc --version
+: 1732171374:0;exit
+: 1732171385:0;cd ..
+: 1732171388:0;git status
+: 1732171392:0;ls -lrt
+: 1732171396:0;git pull origin non_saas_tenant_config
+: 1732171405:0;git config pull.rebase false
+: 1732171407:0;git pull origin non_saas_tenant_config
+: 1732171448:0;bazel run //cmd/admin_service:admin_service
+: 1732171460:0;pwd
+: 1732171464:0;cd infra/admin_service
+: 1732171467:0;bazel run //cmd/admin_service:admin_service
+: 1732171536:0;ls -lrt
+: 1732171540:0;cd proto
+: 1732171540:0;ls
+: 1732171617:0;pwd
+: 1732171658:0;cd ..
+: 1732171663:0;git pull origin non_saas_tenant_config
+: 1732171687:0;git status
+: 1732171703:0;git log 
+: 1732171752:0;git pull origin non_saas_tenant_config
+: 1732171763:0;code .
+: 1732171774:0;cd ..
+: 1732171778:0;pwd
+: 1732171779:0;code .
+: 1732171784:0;/usr/bin/python3 /home/anupam/.vscode/extensions/ms-python.python-2024.20.0-linux-x64/python_files/printEnvVariablesToFile.py /home/anupam/.vscode/extensions/ms-python.python-2024.20.0-linux-x64/python_files/deactivate/zsh/envVars.txt
+: 1732171824:0;cd
+: 1732171826:0;ls -lrt
+: 1732171839:0;mkdir license_manager
+: 1732171841:0;cd license
+: 1732171842:0;ls
+: 1732171843:0;cd Platform
+: 1732171845:0;cd ..
+: 1732171846:0;cd
+: 1732171850:0;cd license_manager
+: 1732171851:0;ls
+: 1732171852:0;cd Platform
+: 1732171857:0;git pull origin non_saas_tenant_config
+: 1732171869:0;code .
+: 1732171984:0;===
+: 1732171998:0;cd
+: 1732171999:0;ls -lrt
+: 1732172003:0;cd license_manager
+: 1732172004:0;ls
+: 1732172005:0;cd Platform
+: 1732172005:0;ls
+: 1732172006:0;cd 
+: 1732172009:0;cd license
+: 1732172010:0;cd Platform
+: 1732172012:0;code .
+: 1732172019:0;pyenv activate pyenv_3_10_0
+: 1732172022:0;code .
+: 1732172027:0;/bin/python3 /home/anupam/.vscode/extensions/ms-python.python-2024.20.0-linux-x64/python_files/printEnvVariablesToFile.py /home/anupam/.vscode/extensions/ms-python.python-2024.20.0-linux-x64/python_files/deactivate/zsh/envVars.txt
+: 1732172120:0;cd infra/remote_tenant_service
+: 1732172146:0;ls -lr
+: 1732172169:0;bazel run //cmd/remote_tenant_service:remote_tenant_service
+: 1732174397:0;pyenv activate pyenv_3_10_0
+: 1732174398:0;pwd
+: 1732174399:0;cd ..
+: 1732174401:0;code .
+: 1732174408:0;/bin/python3 /home/anupam/.vscode/extensions/ms-python.python-2024.20.0-linux-x64/python_files/printEnvVariablesToFile.py /home/anupam/.vscode/extensions/ms-python.python-2024.20.0-linux-x64/python_files/deactivate/zsh/envVars.txt
+: 1732183983:0;git status
+: 1732183986:0;cd ..
+: 1732183988:0;git status
+: 1732183991:0;cd ..
+: 1732183992:0;git status
+: 1732183996:0;git diff api/app.py
+: 1732184003:0;git add api/app.py
+: 1732184010:0;git diff api/resources/onprem_license/api.py
+: 1732184016:0;git add api/resources/onprem_license/api.py
+: 1732184033:0;git diff common/license_client/license_client_config.json
+: 1732184048:0;git add common/license_client/license_configuration_pb2_grpc.py
+: 1732184057:0;git diff common/license_client/license_manager.py
+: 1732184061:0;git add common/license_client/license_manager.py
+: 1732184071:0;git add common/license_client/license_service_client.py
+: 1732184075:0;git commit -m "tentative changes for license manager api layer"
+: 1732184079:0;git push origin license_manager_api_layer
+: 1732184140:0;git pull origin non_saas_tenant_config
+: 1732184340:0;pwd
+: 1732184346:0;cd infra/remote_tenant_service
+: 1732184347:0;ls -lrt
+: 1732184354:0;python -m grpc_tools.protoc -I proto --python_out=. --pyi_out=. --grpc_python_out=. ./proto/license_configuration.proto
+: 1732184417:0;git status
+: 1732184449:0;git checkout origin/main -- infra/remote_tenant_service/proto/license_configuration.proto
+: 1732184478:0;git checkout origin/non_saas_tenant_config -- infra/remote_tenant_service/proto/license_configuration.proto
+: 1732184944:0;pwd
+: 1732184947:0;python -m grpc_tools.protoc -I proto --python_out=. --pyi_out=. --grpc_python_out=. ./proto/license_configuration.proto
+: 1732185716:0;pwd
+: 1732185720:0;bazel run //cmd/remote_tenant_service:remote_tenant_service
+: 1732186779:0;exit
+: 1732187160:0;ls -lrt
+: 1732187185:0;sudo systemctl start mongod
+: 1732187195:0;ls -lrt
+: 1732187203:0;cd license
+: 1732187203:0;ls
+: 1732187206:0;cd Platform
+: 1732187206:0;ls
+: 1732187212:0;pyenv activate pyenv_3_10_0
+: 1732187214:0;code .
+: 1732187221:0;/bin/python3 /home/anupam/.vscode/extensions/ms-python.python-2024.20.0-linux-x64/python_files/printEnvVariablesToFile.py /home/anupam/.vscode/extensions/ms-python.python-2024.20.0-linux-x64/python_files/deactivate/zsh/envVars.txt
+: 1732187238:0;git pull origin non_saas_tenant_config
+: 1732187287:0;cd infra/remote_tenant_service
+: 1732187290:0;bazel run //cmd/remote_tenant_service:remote_tenant_service
+: 1732243579:0;export DEV_ENV_UA_MANAGED_IDENTITY_ID=abdb319e-7471-4d0b-a79f-c8604fd56489\
+export DEV_ENV_VAULT_URI=https://pltintegtestdevkv.vault.azure.net/\
+export INTEG_TESTING_ENABLED=1\
+export SSL_CERT_FILE=$(python -m certifi)
+: 1732243583:0;pyenv activate pyenv_3_10_0
+: 1732243586:0;export DEV_ENV_UA_MANAGED_IDENTITY_ID=abdb319e-7471-4d0b-a79f-c8604fd56489\
+export DEV_ENV_VAULT_URI=https://pltintegtestdevkv.vault.azure.net/\
+export INTEG_TESTING_ENABLED=1\
+export SSL_CERT_FILE=$(python -m certifi)
+: 1732252259:0;bazel run //cmd/remote_tenant_service:remote_tenant_service
+: 1732264283:0;sudo systemctl start mongod
+: 1732264324:0;ls -lrt
+: 1732264351:0;cd license
+: 1732264351:0;ls
+: 1732264353:0;dc Platform
+: 1732264355:0;cd Platform
+: 1732264360:0;pyenv activate pyenv_3_10_0
+: 1732264362:0;code .
+: 1732264368:0;/usr/bin/python3 /home/anupam/.vscode/extensions/ms-python.python-2024.20.0-linux-x64/python_files/printEnvVariablesToFile.py /home/anupam/.vscode/extensions/ms-python.python-2024.20.0-linux-x64/python_files/deactivate/zsh/envVars.txt
+: 1732264414:0;cd infra/remote_tenant_service
+: 1732264417:0;bazel run //cmd/remote_tenant_service:remote_tenant_service
+: 1732474439:0;git status
+: 1732474446:0;cd ..
+: 1732474448:0;pwd
+: 1732474451:0;cd ..
+: 1732474452:0;git status
+: 1732474462:0;git add api/resources/onprem_license/api.py
+: 1732474469:0;git add api/resources/onprem_license/schema.py
+: 1732474488:0;git add common/license_client/license_client_config.json
+: 1732474490:0;git status
+: 1732474505:0;git diff common/license_client/license_configuration_pb2.py
+: 1732474518:0;git add common/license_client/license_configuration_pb2.py
+: 1732474519:0;git status
+: 1732474532:0;git add common/license_client/license_configuration_pb2.pyi
+: 1732474534:0;git statu
+: 1732474556:0;git status
+: 1732474564:0;git diff common/license_client/license_manager.py
+: 1732474581:0;git add common/license_client/license_manager.py common/license_client/license_service_client.py
+: 1732474583:0;git status
+: 1732474971:0;ls common/license_client/license_configuration_pb2_grpc.py
+: 1732474974:0;git status
+: 1732474994:0;git add common/license_client/license_configuration_pb2_grpc_v1.py
+: 1732475003:0;git add common/license_client/license_configuration_pb2_grpc.py
+: 1732475005:0;git sttus
+: 1732475007:0;git status
+: 1732475099:0;git restore --staged common/license_client/license_configuration_pb2_grpc_v1.py
+: 1732475102:0;git status
+: 1732475152:0;git diff infra/common/db/models/tenant_configuration_model.go 
+: 1732475155:0;git add infra/common/db/models/tenant_configuration_model.go
+: 1732475157:0;git status
+: 1732475194:0;git diff infra/remote_tenant_service/internal/license_configuration_repo_impl.go
+: 1732475206:0;git checkout infra/remote_tenant_service/internal/license_configuration_repo_impl.go
+: 1732475208:0;git status
+: 1732475218:0;git diff infra/admin_service/internal/tenant_configuration_model.go
+: 1732475222:0;git checkout infra/admin_service/internal/tenant_configuration_model.go
+: 1732475230:0;git diff infra/remote_tenant_service/proto/license_configuration.proto
+: 1732475234:0;git checkout infra/remote_tenant_service/proto/license_configuration.proto
+: 1732475237:0;git status
+: 1732475256:0;git commit -m "draft PR for license service API"
+: 1732475259:0;git push origin license_manager_api_layer
+: 1732506963:0;git pull origin non_saas_tenant_config
+: 1732524551:0;git stsatus
+: 1732524553:0;pwd
+: 1732524752:0;git status
+: 1732524758:0;cd infra/remote_tenant_service
+: 1732524760:0;git status
+: 1732524775:0;python -m grpc_tools.protoc -I proto --python_out=. --pyi_out=. --grpc_python_out=. ./proto/license_configuration.proto
+: 1732525528:0;git status
+: 1732525549:0;pip install protobuf
+: 1732525601:0;pip install grpcio-status==1.59.3 grpcio-tools==1.60.1
+: 1732526294:0;python -m grpc_tools.protoc -I proto --python_out=. --pyi_out=. --grpc_python_out=. ./proto/license_configuration.proto
+: 1732526921:0;pwd
+: 1732526924:0;bazel run //cmd/remote_tenant_service:remote_tenant_service
+: 1732605527:0;git status
+: 1732605530:0;cd ..
+: 1732605531:0;git status
+: 1732605534:0;pwd
+: 1732605537:0;cd ..
+: 1732605538:0;git status
+: 1732605574:0;git diff api/resources/onprem_license/api.py
+: 1732605581:0;git add api/resources/onprem_license/api.py
+: 1732605592:0;git diff common/license_client/license_configuration_pb2.py
+: 1732605596:0;git add common/license_client/license_configuration_pb2.py
+: 1732605608:0;git add common/license_client/license_configuration_pb2_grpc.py
+: 1732605618:0;git diff common/license_client/license_manager.py
+: 1732605622:0;git add common/license_client/license_manager.py
+: 1732605625:0;git status
+: 1732605632:0;git diff common/license_client/license_service_client.py
+: 1732605637:0;git add common/license_client/license_service_client.py
+: 1732605639:0;git status
+: 1732605663:0;git commit -m "LICENSE SERVICE API Layer in python"
+: 1732605666:0;git push origin license_manager_api_layer
+: 1732605676:0;git pull origin non_saas_tenant_config
+: 1732605687:0;git pull origin main
+: 1732605707:0;git push origin license_manager_api_layer
+: 1732605857:0;git status
+: 1732605865:0;git add api/resources/onprem_license/schema.py
+: 1732605995:0;git status
+: 1732606011:0;git add common/license_client/license_client_config.json
+: 1732606045:0;git commit -m "LICENSE SERVICE API Layer in python"
+: 1732606047:0;git push origin license_manager_api_layer
+: 1732614481:0;git status
+: 1732614497:0;git diff api/resources/onprem_license/api.py
+: 1732614576:0;git status
+: 1732614587:0;git diff api/resources/onprem_license/api.py
+: 1732614592:0;git add api/resources/onprem_license/api.py
+: 1732614631:0;git checkout origin/main -- infra
+: 1732614636:0;git tatus
+: 1732614638:0;git status
+: 1732614674:0;git commit -m "removing auth from validate_license and removing go code"
+: 1732614678:0;git push origin license_manager_api_layer
+: 1732614791:0;git rm infra/common/db/models/BUILD infra/common/db/models/tenant_configuration_model.go
+: 1732614810:0;git commit -m "removing infra/common/models"
+: 1732614812:0;git push origin license_manager_api_layer
+: 1732614841:0;git rm infra/remote_tenant_service
+: 1732614853:0;git rm infra/remote_tenant_service -r
+: 1732614891:0;git checkout infra/remote_tenant_service/proto/license_configuration.proto
+: 1732614896:0;git rm infra/remote_tenant_service -r
+: 1732614900:0;git status
+: 1732614949:0;git commit -m "removing remote_tenant_config_service"
+: 1732614956:0;git push origin license_manager_api_layer
+: 1732627671:0;kubectl get deployments --all-namespaces=true
+: 1732627882:0;âƒ½¯ kubectl config get-contextsCURRENT   NAME            CLUSTER         AUTHINFO                                       NAMESPACE*         AI360-Dev-API   AI360-Dev-API   clusterUser_AI360-Dev-AI-Infra_AI360-Dev-API   
+: 1732627905:0;kubectl get config get-contexts
+: 1732627930:0;kubectl config get-contexts
+: 1732627980:0;kubectl az login
+: 1732627982:0;az login
+: 1732628009:0;kubectl config get-contexts
+: 1732628018:0;az login
+: 1732628068:0;az account set --subscription 33f3ed36-86a1-456c-ba37-29e4d15587a2
+: 1732628075:0;az aks get-credentials --resource-group Lab45AI-AI360-SaaS-Stage-API --name AI360-Stage-API --overwrite-existing
+: 1732628132:0;sudo az aks get-credentials --resource-group Lab45AI-AI360-SaaS-Stage-API --name AI360-Stage-API --overwrite-existing
+: 1732628153:0;kubectl get deployments --all-namespaces=true
+: 1732628161:0;kubectl config get-contexts
+: 1732628173:0;az aks get-credentials --resource-group Lab45AI-AI360-SaaS-Stage-API --name AI360-Stage-API --overwrite-existing
+: 1732628179:0;sudo az aks get-credentials --resource-group Lab45AI-AI360-SaaS-Stage-API --name AI360-Stage-API --overwrite-existing
+: 1732628184:0;az login
+: 1732628208:0;kubectl config get-contexts
+: 1732628362:0;sudo az aks get-credentials --resource-group Lab45AI-AI360-SaaS-Stage-API --name AI360-Stage-API --overwrite-existing
+: 1732628472:0;kubectl config get-contexts
+: 1732628477:0;az login
+: 1732629770:0;cd
+: 1732629774:0;git clone git@github.com:Lab45-CoreAI/Platform.git
+: 1732629780:0;mkdir staging
+: 1732629782:0;cd staging
+: 1732629786:0;git clone git@github.com:Lab45-CoreAI/Platform.git
+: 1732631686:0;cd Platform
+: 1732631714:0;git checkout release/rc-2024-11-26T11-07-54
+: 1732631717:0;code .
+: 1732635631:0;az login
+: 1732635710:0;kubectl config get-contexts
+: 1732635770:0;az account set --subscription 33f3ed36-86a1-456c-ba37-29e4d15587a2
+: 1732635774:0;az aks get-credentials --resource-group Lab45AI-AI360-SaaS-Stage-API --name AI360-Stage-API --overwrite-existing
+: 1732635783:0;kubectl get deployments --all-namespaces=true
+: 1732635795:0;kubectl config get-contexts
+: 1732635843:0;kubectl get deployments --all-namespaces=true
+: 1732635897:0;kubectl get deployments --namespace ai360-platform
+: 1732635970:0;kubectl get pods -n ai360-platform
+: 1732636059:0;kubectl logs -n ai360-platform
+: 1732636259:0;kubectl logs plt-backend-validationservice-deployment-b786ccf69-qvqfv -n ai360-platform
+: 1732636472:0;ls -lrt
+: 1732636473:0;cd
+: 1732636475:0;ls -lrt
+: 1732636489:0;code metering_and_billing.published_token_configuration_26Nov2024.json
+: 1732637720:0;/bin/python3 /home/anupam/.vscode/extensions/ms-python.python-2024.20.0-linux-x64/python_files/printEnvVariablesToFile.py /home/anupam/.vscode/extensions/ms-python.python-2024.20.0-linux-x64/python_files/deactivate/zsh/envVars.txt
+: 1732637726:0;exit
+: 1732637730:0;pwd
+: 1732637736:0;ls -lrt
+: 1732637741:0;cd infra
+: 1732637742:0;ls
+: 1732637746:0;cd validation_service
+: 1732637752:0;bazel run //cmd/validation_service:validation_service
+: 1732640084:0;kubectl logs -n ai360-platform
+: 1732640104:0;kubectl get deployments --namespace ai360-platform
+: 1732640122:0;kubectl config get-contexts
+: 1732640172:0;kubectl get pods -n ai360-platform
+: 1732640644:0;kubectl logs plt-backend-validationservice-deployment-864d7bf5bc-7p6hp  -n ai360-platform
+: 1732679439:0;ls -lrt
+: 1732679440:0;cd
+: 1732679442:0;ls -lrt
+: 1732679447:0;cd azure_blog_integration
+: 1732679449:0;cd Platform
+: 1732679452:0;code .
+: 1732679458:0;/bin/python3 /home/anupam/.vscode/extensions/ms-python.python-2024.20.0-linux-x64/python_files/printEnvVariablesToFile.py /home/anupam/.vscode/extensions/ms-python.python-2024.20.0-linux-x64/python_files/deactivate/zsh/envVars.txt
+: 1732680351:0;pyenv activate pyenv_3_10_0
+: 1732680376:0;pip install pytest
+: 1732680408:0;python -m unittest discover -s . -p 'converstation_manager_test.py' -v
+: 1732680415:0;pwd
+: 1732680431:0;python -m unittest discover -s . -p 'conversation_manager_test.py' -v
+: 1732680647:0;git statu
+: 1732680650:0;git status
+: 1732680656:0;git diff conversation_client/conversation_manager_test.py
+: 1732680660:0;git add conversation_client/conversation_manager_test.py
+: 1732680674:0;git commit -m "commenting converstation_manaager_test for testing"
+: 1732680679:0;git push origin migrate_codebase_to_blob_storage
+: 1732680860:0;git pull origin main
+: 1732688591:0;git config pull.rebase false
+: 1732688595:0;git pull origin migrate_codebase_to_blob_storage
+: 1732688616:0;git pull origin main
+: 1732688630:0;git push origin migrate_codebase_to_blob_storage
+: 1732699521:0;git status
+: 1732699523:0;git diff
+: 1732699531:0;code .
+: 1732699539:0;cd ..
+: 1732699540:0;pwd
+: 1732699542:0;cd ..
+: 1732699543:0;ls
+: 1732699546:0;ls -lrt
+: 1732699548:0;code .
+: 1732699674:0;cd ui/superadmin_ui
+: 1732699701:0;npm i
+: 1732701696:0;npm run dev
+: 1732768639:0;cd
+: 1732768641:0;ls -lrt
+: 1732768660:0;cd azure_blog_integration
+: 1732768662:0;cd Platform
+: 1732768680:0;git status
+: 1732768686:0;git pull origin main
+: 1732768709:0;git push origin migrate_codebase_to_blob_storage
+: 1732771740:0;python -m unittest discover -s . -p 'conversation_manager_test.py' -v
+: 1732773011:0;pwd
+: 1732773195:0;exit
+: 1732774585:0;git pull origin main
+: 1732814698:0;git status
+: 1732814711:0;git diff conversation_client/conversation_manager_test.py
+: 1732814717:0;git add conversation_client/conversation_manager_test.py
+: 1732814719:0;git status
+: 1732814725:0;git diff data_services/metadb_api.py
+: 1732814731:0;git add data_services/metadb_api.py
+: 1732814747:0;git commit -m "fixing converstation_manager test file"
+: 1732814754:0;git push origin migrate_codebase_to_blob_storage
+: 1732833865:0;git status
+: 1732833877:0;git add agent_tools/slidetools_test.py
+: 1732833881:0;git commit -m "fixing converstation_manager test file"
+: 1732833888:0;git push origin migrate_codebase_to_blob_storage
+: 1732851534:0;cd
+: 1732851544:0;mkdir migrating_to_blog_storage
+: 1732851546:0;cd migrating_to_blog_storage
+: 1732851548:0;git clone git@github.com:Lab45-CoreAI/Platform.git
+: 1732851673:0;cd Platform
+: 1732851685:0;git checkout -b migrate_to_blob_storage
+: 1732851704:0;code .
+: 1732851750:0;/usr/bin/python3 /home/anupam/.vscode/extensions/ms-python.python-2024.20.0-linux-x64/python_files/printEnvVariablesToFile.py /home/anupam/.vscode/extensions/ms-python.python-2024.20.0-linux-x64/python_files/deactivate/zsh/envVars.txt
+: 1732851773:0;pyenv activate pyenv_3_10_0
+: 1732851774:0;code .
+: 1732851780:0;/bin/python3 /home/anupam/.vscode/extensions/ms-python.python-2024.20.0-linux-x64/python_files/printEnvVariablesToFile.py /home/anupam/.vscode/extensions/ms-python.python-2024.20.0-linux-x64/python_files/deactivate/zsh/envVars.txt
+: 1732851919:0;python -m unittest discover -s . -p 'autogen_conversableagents_test.py' -v
+: 1732894829:0;exit
+: 1732894831:0;exi
+: 1732894833:0;exit
+: 1732975417:0;lsblk
+: 1732975466:0;sudo ntfsfix /dev/sda1
+: 1732982068:0;sudo ntfsfix /dev/sda3
+: 1732983610:0;ls -lrt
+: 1732985942:0;sudo ntfsfix /dev/sda4
+: 1733028148:0;ls -lrt
+: 1733028151:0;cd
+: 1733028153:0;ls -lrt
+: 1733028160:0;sudo ntfsfix /dev/sda1
+: 1733028210:0;cd /media/anupam/C85F-55DC
+: 1733028211:0;ls
+: 1733028213:0;cd ..
+: 1733028215:0;ls -lrt
+: 1733028218:0;cd family
+: 1733028218:0;ls
+: 1733028220:0;ls -lrt
+: 1733028244:0;cd papa_mobile_nov29_2024
+: 1733028245:0;ls
+: 1733028251:0;cd Video
+: 1733028251:0;ls
+: 1733028257:0;cd ..
+: 1733028258:0;ls
+: 1733028259:0;cd ..
+: 1733028261:0;ls -lrt
+: 1733028290:0;cp -R papa_mobile_nov29_2024/* PapaMobileBackup/
+: 1733028645:0;pwd
+: 1733028665:0;cd
+: 1733028668:0;sudo ntfsfix /dev/sda1
+: 1733028684:0;ls -lrt
+: 1733028707:0;cd /media/anupam/
+: 1733028708:0;ls
+: 1733028718:0;cd family
+: 1733028788:0;rsync -av PapaMobileBackup PapaMobileBackup
+: 1733029134:0;mkdir papa_mobile_photos
+: 1733029159:0;ls
+: 1733029161:0;cd
+: 1733029167:0;cd /media/anupam
+: 1733029168:0;ls
+: 1733029989:0;ls -lrt
+: 1733029994:0;cd migrating_to_blog_storage
+: 1733029994:0;ls
+: 1733029995:0;cd Platform
+: 1733030003:0;code .
+: 1733030010:0;/bin/python3 /home/anupam/.vscode/extensions/ms-python.python-2024.20.0-linux-x64/python_files/printEnvVariablesToFile.py /home/anupam/.vscode/extensions/ms-python.python-2024.20.0-linux-x64/python_files/deactivate/zsh/envVars.txt
+: 1733030148:0;pwd
+: 1733032043:0;git status
+: 1733032250:0;git add custom/custompdfloader.py
+: 1733032254:0;git add custom/docxloader.py
+: 1733032259:0;git add custom/imageloader.py
+: 1733032263:0;git diff custom/pptloader.py
+: 1733032268:0;git add custom/pptloader.py
+: 1733032270:0;git status
+: 1733032278:0;git diff data_services/crawler.py
+: 1733032285:0;git add data_services/crawler.py
+: 1733032287:0;git status
+: 1733032322:0;git commit -m "migrating file_manager get_file_name sync methods"
+: 1733032326:0;git push origin migrate_to_blob_storage
+: 1733037608:0;# from common.file_manager import FileManager, CONTAINER_PREFIX
+: 1733037893:0;ps -auf | grep pycharm
+: 1733037903:0;kill 43557
+: 1733037936:0;ps -auf | grep pycharm
+: 1733037941:0;pgrep -f pycharm
+: 1733037948:0;kill -9 40421
+: 1733037955:0;pgrep -f pycharm
+: 1733038546:0;git status
+: 1733039032:0;git checkout agent_handlers/agent_init_test.py
+: 1733039040:0;git checkout custom/imageloader_test.py
+: 1733039042:0;git status
+: 1733039049:0;git pull origin migrate_to_blob_storage
+: 1733039109:0;git status
+: 1733039125:0;git checkout custom/custompdfloader.py
+: 1733039134:0;git checkout origin/main -- custom/custompdfloader.py
+: 1733039147:0;git checkout origin/main -- custom/docxloader
+: 1733039149:0;git checkout origin/main -- custom/docxloader.py
+: 1733039158:0;git checkout origin/main -- custom/imageloader.py
+: 1733039165:0;git checkout origin/main -- custom/pptloader.py
+: 1733039176:0;git status
+: 1733039186:0;git commit -m "removing changes from custom folder\
+"
+: 1733039189:0;git push origin migrate_to_blob_storage
+: 1733039255:0;git status
+: 1733039260:0;git pull origin migrate_to_blob_storage
+: 1733045474:0;pgrep -f pycharm
+: 1733045483:0;kill -9 43736
+: 1733045485:0;pgrep -f pycharm
+: 1733046101:0;git status
+: 1733046106:0;git diff custom/custompdfloader.py
+: 1733046112:0;git add custom/custompdfloader.py
+: 1733046121:0;git commit -m "adding custompdfloader"
+: 1733046124:0;git push origin migrate_to_blob_storage
+: 1733046186:0;git pull origin migrate_to_blob_storage
+: 1733046207:0;git config pull.rebase false
+: 1733046210:0;git pull origin migrate_to_blob_storage
+: 1733046301:0;git push origin migrate_to_blob_storage
+: 1733047444:0;git status
+: 1733047449:0;git diff custom/docxloader.py
+: 1733047457:0;git add custom/docxloader.py
+: 1733047474:0;git commit -m "adding docx loader"
+: 1733047480:0;git push origin migrate_to_blob_storage
+: 1733048344:0;git status
+: 1733048455:0;git diff custom/pptloader.py
+: 1733048461:0;git add custom/pptloader.py
+: 1733048468:0;git commit -m "adding pptloader"
+: 1733048470:0;git push origin migrate_to_blob_storage
+: 1733051974:0;cd
+: 1733051975:0;ls -lrt
+: 1733051989:0;cd azure_blog_integration
+: 1733051990:0;ls
+: 1733051992:0;cd Platform
+: 1733051993:0;ls
+: 1733051997:0;git log
+: 1733052000:0;code .
+: 1733052007:0;/bin/python3 /home/anupam/.vscode/extensions/ms-python.python-2024.20.0-linux-x64/python_files/printEnvVariablesToFile.py /home/anupam/.vscode/extensions/ms-python.python-2024.20.0-linux-x64/python_files/deactivate/zsh/envVars.txt
+: 1733069776:0;git status
+: 1733069791:0;git diff custom/imageloader.py
+: 1733069800:0;git add custom/imageloader.py
+: 1733069804:0;git diff custom/imageloader_test.py
+: 1733069810:0;git add custom/imageloader_test.py
+: 1733069836:0;git commit -m "updating custom image loader"
+: 1733069839:0;git push origin migrate_to_blob_storage
+: 1733076573:0;git status
+: 1733076578:0;git diff data_services/metadb_api.py
+: 1733076582:0;git add data_services/metadb_api.py
+: 1733076601:0;git commit -m "migrating delete_folder from metadb_api"
+: 1733076604:0;git push origin migrate_to_blob_storage
+: 1733079482:0;git status
+: 1733079484:0;git log 
+: 1733079494:0;git diff common/file_utils.py
+: 1733079501:0;git add common/file_utils.py
+: 1733079505:0;git diff common/file_utils_test.py
+: 1733079510:0;git add common/file_utils_test.py
+: 1733079533:0;git commit -m "migrating read file for file_utils and file_utils_test"
+: 1733079537:0;git push origin migrate_to_blob_storage
+: 1733081421:0;git status
+: 1733081433:0;git diff skills/SOWCommit_AI/sow_commit_ai.py
+: 1733081444:0;git add skills/SOWCommit_AI/sow_commit_ai.py
+: 1733081464:0;git commit -m "migrating sow_commit_ai for read_file and upload file"
+: 1733081469:0;git push origin migrate_to_blob_storage
+: 1733117253:0;git status
+: 1733117260:0;git diff skills/Structured_AI/structured_ai_skill.py
+: 1733117279:0;git add skills/Structured_AI/structured_ai_skill.py
+: 1733117303:0;git commit -m "migrating structured_ai_skill  for read_file and upload file"
+: 1733117306:0;git push origin migrate_to_blob_storage
+: 1733118053:0;sudo systemctl start mongod
+: 1733118646:0;git status
+: 1733118654:0;git diff data_services/metadb_api_tests.py
+: 1733118663:0;git add data_services/metadb_api_tests.py
+: 1733118669:0;git diff common/file_utils_test.py
+: 1733118688:0;git diff api/resources/datasets/api.py
+: 1733118696:0;git add api/resources/datasets/api.py
+: 1733118728:0;git commit -m "migrating save_file from datasets api.py and updated metadb_api_tests"
+: 1733118731:0;git push origin migrate_to_blob_storage
+: 1733119494:0;git status
+: 1733119500:0;git diff common/file_utils_test.py
+: 1733119509:0;git checkout origin/main -- skills/Structured_AI/structured_ai_skill.py
+: 1733123480:0;git status
+: 1733123488:0;git diff agent_handlers/agent_init_test.py
+: 1733123569:0;git status
+: 1733123575:0;git add agent_handlers/agent_init_test.py
+: 1733123598:0;git commit -m "reverting migrating structure_ai changes"
+: 1733123601:0;git push origin migrate_to_blob_storage
+: 1733136994:0;git status
+: 1733137070:0;git diff conversation_client/conversation_manager.py
+: 1733137211:0;git status
+: 1733137219:0;git diff conversation_client/conversation_manager.py
+: 1733137223:0;git add conversation_client/conversation_manager.py
+: 1733137232:0;git add conversation_client/conversation_manager_test.py
+: 1733137269:0;git commit -m "migrating get_blob_url to conversation manager"
+: 1733137273:0;git push origin migrate_to_blob_storage
+: 1733141757:0;ls -lrt
+: 1733141762:0;cd migrating_to_blog_storage
+: 1733141763:0;cd Platform
+: 1733141765:0;ls -lrt
+: 1733141768:0;git status
+: 1733141781:0;git diff agent_tools/slidetools.py
+: 1733197810:0;cd
+: 1733197811:0;ls -lrt
+: 1733197813:0;cd Platform
+: 1733197816:0;cd
+: 1733197817:0;ls -lrt
+: 1733197824:0;mkdir UI
+: 1733197826:0;cd UI
+: 1733197830:0;git clone git@github.com:Lab45-CoreAI/Platform.git
+: 1733198235:0;cd
+: 1733198238:0;wget -qO- https://updates.phcode.io/linux/installer.sh | bash
+: 1733200484:0;git clone git@github.com:Lab45-CoreAI/Platform.git
+: 1733200630:0;ls -lrt
+: 1733378336:0;cd UI
+: 1733378337:0;ls
+: 1733378343:0;rm -rf Platform
+: 1733378355:0;cd Pl
+: 1733378361:0;ls
+: 1733378362:0;git clone git@github.com:Lab45-CoreAI/Platform.git
+: 1733379048:0;cd Platform
+: 1733379052:0;ls -lrt
+: 1733379635:0;cd ~/Downloads
+: 1733379637:0;ls -lrt
+: 1733379648:0;mkdir ~/webstorm
+: 1733379669:0;tar -xzf WebStorm-2024.3.tar.gz ~/webstorm
+: 1733379695:0;tar -xzf WebStorm-2024.3\ \(1\).tar.gz ~/webstorm
+: 1733379721:0;cd ~/webstorm
+: 1733379722:0;ls
+: 1733379728:0;cd -
+: 1733379735:0;tar -xzf WebStorm-2024.3\ \(1\).tar.gz
+: 1733379810:0;ls
+: 1733379811:0;ls -lrt
+: 1733379817:0;cd WebStorm-243.21565.180
+: 1733379817:0;ls
+: 1733379819:0;ls -lrt
+: 1733379824:0;vim Install-Linux-tar.txt
+: 1733379851:0;bin/webstorm.sh
+: 1733381703:0;pwd
+: 1733381706:0;exit
+: 1733381708:0;pwd
+: 1733381712:0;cd ui/superadmin_ui
+: 1733381716:0;npm run dev
+: 1733381722:0;npm install .
+: 1733381917:0;npm i
+: 1733382590:0;npm run dev
+: 1733420603:0;pwd
+: 1733420608:0;code .
+: 1733420964:0;cd ..
+: 1733420965:0;ls
+: 1733420967:0;code .
+: 1733421337:0;npm run dev
+: 1733806080:0;pwd
+: 1733806086:0;code .
+: 1733806098:0;cd Platform
+: 1733806100:0;code .
+: 1733806643:0;npm run dev
+: 1733893197:0;cd
+: 1733893201:0;vim notes
+: 1733909854:0;ls -lrt
+: 1733909863:0;cd migrating_to_blog_storage
+: 1733909865:0;cd Platform
+: 1733909868:0;git status
+: 1733909871:0;code .
+: 1733909877:0;/bin/python3 /home/anupam/.vscode/extensions/ms-python.python-2024.20.0-linux-x64/python_files/printEnvVariablesToFile.py /home/anupam/.vscode/extensions/ms-python.python-2024.20.0-linux-x64/python_files/deactivate/zsh/envVars.txt
+: 1733909987:0;code .
+: 1733910034:0;git status
+: 1733910041:0;git diff data_services/crawler.py
+: 1733910045:0;git add data_services/crawler.py
+: 1733910070:0;git commit -m "fixing blobfactory instantiation"
+: 1733910077:0;git push origin migrate_to_blob_storage
+: 1733910088:0;git pull origin migrate_to_blob_storage
+: 1733910115:0;git push origin migrate_to_blob_storage
+: 1733910162:0;python -m unittest discover -s . -p 'autogen_conversableagents_test.py' -v
+: 1733910166:0;pyenv activate pyenv_3_10_0
+: 1733981632:0;cd
+: 1733981633:0;ls -lrt
+: 1733981637:0;vim notes
+: 1733985676:0;vim ui_flow
+: 1733986458:0;/bin/python3 /home/anupam/.vscode/extensions/ms-python.python-2024.20.0-linux-x64/python_files/printEnvVariablesToFile.py /home/anupam/.vscode/extensions/ms-python.python-2024.20.0-linux-x64/python_files/deactivate/zsh/envVars.txt
+: 1734063916:0;ls -lrt
+: 1734369668:0;cd migrating_to_blog_storage
+: 1734369669:0;ls -lrt
+: 1734369672:0;cd Platform
+: 1734369673:0;ls -lrt
+: 1734369675:0;code .
+: 1734369682:0;/usr/bin/python3 /home/anupam/.vscode/extensions/ms-python.python-2024.20.0-linux-x64/python_files/printEnvVariablesToFile.py /home/anupam/.vscode/extensions/ms-python.python-2024.20.0-linux-x64/python_files/deactivate/zsh/envVars.txt
+: 1734411580:0;git status
+: 1734411600:0;git diff common/blob/blob_manager.py
+: 1734411628:0;git checkout common/blob/blob_manager.py
+: 1734411629:0;git status
+: 1734411635:0;git diff common/file_manager.py
+: 1734411652:0;git checkout common/file_manager.py
+: 1734411653:0;git status
+: 1734411827:0;git diff agent_handlers/autogen_conversableagents_test.py
+: 1734411836:0;python -m unittest discover -s . -p 'autogen_conversableagents_test.py' -v
+: 1734411840:0;pyenv activate pyenv_3_10_0
+: 1734411841:0;python -m unittest discover -s . -p 'autogen_conversableagents_test.py' -v
+: 1734411858:0;pip install kneed
+: 1734411863:0;python -m unittest discover -s . -p 'autogen_conversableagents_test.py' -v
+: 1734411877:0;pwd
+: 1734411887:0;pip install ruptures
+: 1734411893:0;python -m unittest discover -s . -p 'autogen_conversableagents_test.py' -v
+: 1734411912:0;git status
+: 1734411918:0;git diff common/file_utils_test.py
+: 1734411926:0;git checkout common/file_utils_test.py
+: 1734411941:0;git add common/blob/blob_manager_async.py
+: 1734411967:0;git commit -m "adding async for Azure"
+: 1734411971:0;git push origin migrate_to_blob_storage
+: 1734413977:0;git status
+: 1734413989:0;git diff temporal_workers/temporal_indexing_workflow/activities/cleanup_activity.py
+: 1734413995:0;git add temporal_workers/temporal_indexing_workflow/activities/cleanup_activity.py
+: 1734413996:0;git status
+: 1734414005:0;git diff temporal_workers/temporal_indexing_workflow/activities/document_loader.py
+: 1734414011:0;git add temporal_workers/temporal_indexing_workflow/activities/document_loader.py
+: 1734414012:0;git status
+: 1734414020:0;git diff temporal_workers/temporal_indexing_workflow/activities/embedding_generator.py
+: 1734414023:0;git add temporal_workers/temporal_indexing_workflow/activities/embedding_generator.py
+: 1734414027:0;git status
+: 1734414039:0;git diff temporal_workers/temporal_indexing_workflow/activities/search_service.py
+: 1734414045:0;git add temporal_workers/temporal_indexing_workflow/activities/search_service.py
+: 1734414047:0;git status
+: 1734414058:0;git commit -m "migrating async changes for azure"
+: 1734414060:0;git push origin migrate_to_blob_storage
+: 1734417183:0;ls -lrt
+: 1734417184:0;pwd
+: 1734417185:0;cd
+: 1734417187:0;ls -lrt
+: 1734417352:0;cd azure_blog_integration
+: 1734417353:0;ls
+: 1734417355:0;cd Platform
+: 1734417356:0;ls
+: 1734417359:0;code .
+: 1734417365:0;/bin/python3 /home/anupam/.vscode/extensions/ms-python.python-2024.22.0-linux-x64/python_files/printEnvVariablesToFile.py /home/anupam/.vscode/extensions/ms-python.python-2024.22.0-linux-x64/python_files/deactivate/zsh/envVars.txt
+: 1734417940:0;pwd
+: 1734419591:0;bazel --version
+: 1734431039:0;pwd
+: 1734431045:0;git log 
+: 1734431050:0;git log --oneline
+: 1734431078:0;d
+: 1734431080:0;cd
+: 1734431082:0;mkdir main
+: 1734431086:0;mkdir master
+: 1734431089:0;cd master
+: 1734431092:0;git clone git@github.com:Lab45-CoreAI/Platform.git
+: 1734431175:0;cd Platform
+: 1734431197:0;git checkout 7b199e4d2200ea50c928df68b35d102e22aa92b1
+: 1734433890:0;pwd
+: 1734433993:0;bazel build //cmd/admin_service:admin_service
+: 1734491539:0;git pull origin main
+: 1734491613:0;git checkout c9a644d8b9fd69373e280b130ec7aa7f6ded8032
+: 1734492186:0;git fetch --all
+: 1734492205:0;git checkout c9a644d8b9fd69373e280b130ec7aa7f6ded8032
+: 1734492270:0;git fetch --all --tags\
+
+: 1734492276:0;git checkout c9a644d8b9fd69373e280b130ec7aa7f6ded8032
+: 1734492285:0;git fetch --unshallow\
+
+: 1734492305:0;git reflog\
+
+: 1734492315:0;git checkout c9a644d8b9fd69373e280b130ec7aa7f6ded8032
+: 1734492328:0;git branch -r --contains c9a644d8b9fd693\
+
+: 1734492344:0;git log --all --oneline | grep c9a644d8b9fd693\
+
+: 1734492415:0;git log --merges --oneline\
+
+: 1734492434:0;git log --merges --oneline | grep c9a644\
+
+: 1734492456:0;git reflog show
+: 1734492490:0;cd
+: 1734492492:0;ls -lrt
+: 1734492526:0;cd gcp-changes-for-ocr
+: 1734492527:0;ls
+: 1734492528:0;cd Platform
+: 1734492529:0;ls
+: 1734492547:0;git status
+: 1734492550:0;git log
+: 1734492559:0;cd ..
+: 1734492560:0;ls
+: 1734492561:0;cd ..
+: 1734492563:0;ls -lrt
+: 1734492580:0;cd gcp-changes-for-ocr-v1
+: 1734492580:0;ls
+: 1734492582:0;cd Platform
+: 1734492583:0;ls
+: 1734492592:0;cd
+: 1734492609:0;cd azure_blog_integration
+: 1734492609:0;ls
+: 1734492611:0;cd Platform
+: 1734535981:0;ls -lrt
+: 1734536041:0;ffmpeg -ss 00:00:00 -to 30:00:00 -i 01_VIDEO.mp4 -c copy 01_VIDEO_01.mp4
+: 1734536071:0;sudo add-apt-repository ppa:savoury1/ffmpeg4\
+sudo apt-get update\
+sudo apt-get install ffmpeg
+: 1734538490:0;ffmpeg -ss 00:00:00 -to 30:00:00 -i 01_VIDEO.mp4 -c copy 01_VIDEO_01.mp4
+: 1734543349:0;exit
+: 1734925725:0;ls -lrt
+: 1734925729:0;vim notes
+: 1734925745:0;ls -lrt
+: 1734925756:0;mkdir backend_api
+: 1734925757:0;cd backend_api
+: 1734925760:0;git clone git@github.com:Lab45-CoreAI/Platform.git
+: 1734925860:0;ls -lrt
+: 1734925863:0;cd master
+: 1734925864:0;ls
+: 1734925865:0;cd Platform
+: 1734925867:0;git status
+: 1734925902:0;git checkout -b get_menu
+: 1734925906:0;code .
+: 1734925936:0;/bin/python3 /home/anupam/.vscode/extensions/ms-python.python-2024.22.0-linux-x64/python_files/printEnvVariablesToFile.py /home/anupam/.vscode/extensions/ms-python.python-2024.22.0-linux-x64/python_files/deactivate/zsh/envVars.txt
+: 1734927736:0;mkdir admin_roles
+: 1734927737:0;cd admin_roles
+: 1734927740:0;git clone git@github.com:Lab45-CoreAI/Platform.git
+: 1734934541:0;cd Platform
+: 1734934542:0;ls -lrt
+: 1734934557:0;git checkout admin_roles
+: 1734934559:0;code .
+: 1735321399:0;exit
+: 1735322666:0;ls -lrt
+: 1735322669:0;cd admin_roles
+: 1735322672:0;cd Platform
+: 1735322672:0;ls
+: 1735322675:0;code .
+: 1735326463:0;cd
+: 1735326464:0;ls -lrt
+: 1735326466:0;cd Downloads
+: 1735326467:0;ls
+: 1735326468:0;ls -lrt
+: 1735326497:0;exit
+: 1735326508:0;ls -lrt
+: 1735326679:0;exit
+: 1735787319:0;ls -lrt
+: 1735787323:0;cd admin_roles
+: 1735787325:0;cd Platform
+: 1735787328:0;code .
+: 1735787395:0;sudo systemctl start mongod
+: 1735795852:0;code .
+: 1735797616:0;/bin/python3 /home/anupam/.vscode/extensions/ms-python.python-2024.22.1-linux-x64/python_files/printEnvVariablesToFile.py /home/anupam/.vscode/extensions/ms-python.python-2024.22.1-linux-x64/python_files/deactivate/zsh/envVars.txt
+: 1735874304:0;ls -lrt
+: 1735874306:0;cd ..
+: 1735874306:0;ls
+: 1735874308:0;cd ..
+: 1735874310:0;ls -lrt
+: 1735874314:0;cd backend_api
+: 1735874316:0;cd Pl
+: 1735874321:0;ls
+: 1735874323:0;cd ..
+: 1735874326:0;cd master
+: 1735874327:0;ls
+: 1735874329:0;cd Platform
+: 1735874329:0;ls
+: 1735874334:0;git diff
+: 1735874338:0;git status
+: 1735875700:0;code .
+: 1735875708:0;pyenv activate pyenv_3_10_0
+: 1735875709:0;code.
+: 1735875711:0;code .
+: 1735875718:0;/bin/python3 /home/anupam/.vscode/extensions/ms-python.python-2024.22.1-linux-x64/python_files/printEnvVariablesToFile.py /home/anupam/.vscode/extensions/ms-python.python-2024.22.1-linux-x64/python_files/deactivate/zsh/envVars.txt
+: 1735875825:0;find . -name "requirements.txt" -exec pip install -r {} \;\
+
+: 1735877396:0;git status
+: 1735877409:0;git add api/resources/menus
+: 1735877442:0;git commit -m "tentative changes for get menus based on user_id, tenant_id and groups_ids"
+: 1735877448:0;git push origin get_menu
+: 1735877633:0;git pull origin main
+: 1735877989:0;git status
+: 1735877993:0;git pull origin main
+: 1735878288:0;git push origin get_menu
+: 1735878336:0;cd
+: 1735878339:0;mkdir test
+: 1735878340:0;cd test
+: 1735878342:0;git clone git@github.com:Lab45-CoreAI/Platform.git
+: 1735878925:0;git push origin get_menu
+: 1735878940:0;git pull origin main
+: 1735878950:0;git config pull.rebase false
+: 1735878953:0;git pull origin main
+: 1735878970:0;git push origin get_menu
+: 1735878991:0;git pull origin main
+: 1735879000:0;git push origin get_menu
+: 1735882626:0;git status
+: 1735882638:0;git pull origin admin_roles
+: 1735885135:0;exit
+: 1735885139:0;git status
+: 1735885145:0;git pull origin admin_roles
+: 1735885164:0;git push origin get_menu
+: 1735890240:0;python -m unittest discover -s . -p 'validation_manager_test.py' -v
+: 1735890529:0;cd
+: 1735890533:0;mkdir admin_user_Role
+: 1735890537:0;cd admin_user_Role
+: 1735890539:0;git clone git@github.com:Lab45-CoreAI/Platform.git
+: 1736134960:0;exit
+: 1736134963:0;git status
+: 1736134974:0;git pull origin admin_roles
+: 1736135062:0;pyenv activate pyenv_3_10_0
+: 1736135067:0;cd infra/validation_service
+: 1736135090:0;protoc --version
+: 1736135130:0;python -m grpc_tools.protoc -I proto --python_out=. --pyi_out=. --grpc_python_out=. ./proto/role_validation_service.proto
+: 1736136601:0;pwd
+: 1736136604:0;cd ..
+: 1736136604:0;ls
+: 1736136607:0;ls -lrt
+: 1736136610:0;cd validation_service
+: 1736136610:0;ls
+: 1736136645:0;bazel build //cmd/validation_service:validation_service
+: 1736136830:0;bazel run //cmd/validation_service:validation_service
+: 1736137933:0;===
+: 1736139087:0;bazel run //cmd/validation_service:validation_service
+: 1736139776:0;cd
+: 1736139780:0;vim notes.txt
+: 1736140815:0;bazel run //cmd/validation_service:validation_service
+: 1736141353:0;cd
+: 1736141354:0;ls -lrt
+: 1736141364:0;cd UI
+: 1736141365:0;ls
+: 1736141367:0;cd Platform
+: 1736141367:0;ls
+: 1736141370:0;git diff
+: 1736141377:0;code .
+: 1736141383:0;/bin/python3 /home/anupam/.vscode/extensions/ms-python.python-2024.22.1-linux-x64/python_files/printEnvVariablesToFile.py /home/anupam/.vscode/extensions/ms-python.python-2024.22.1-linux-x64/python_files/deactivate/zsh/envVars.txt
+: 1736141557:0;ls -lrt
+: 1736141563:0;cat notes
+: 1736141568:0;vim notes
+: 1736141586:0;git status
+: 1736141597:0;npm run dev
+: 1736141599:0;pwd
+: 1736141604:0;cd ui/superadmin_ui
+: 1736141608:0;npm run dev
+: 1736156092:0;az logout
+: 1736156363:0;az login
+: 1736166993:0;code notes
+: 1736167574:0;vim notes
+: 1736172971:0;npm run dev
+: 1736225302:0;pwd
+: 1736225304:0;cd ..
+: 1736225307:0;pwd
+: 1736225310:0;cd admin_service
+: 1736225314:0;cd ..
+: 1736225317:0;cd reporting_service
+: 1736225343:0;bazel run //cmd/reporting_service:reporting_service
+: 1736225858:0;npm run dev
+: 1736227283:0;cd ..
+: 1736227284:0;pwd
+: 1736227292:0;cd reporting_service
+: 1736227296:0;cd ..
+: 1736227298:0;cd admin_service
+: 1736227299:0;ls
+: 1736227302:0;git status
+: 1736227315:0;bazel run //cmd/admin_service:admin_service\
+: 1736227317:0;bazel run //cmd/admin_service:admin_service
+: 1736229217:0;sudo add-apt-repository ppa:umang/indicator-stickynotes\
+sudo apt-get update\
+sudo apt-get install indicator-stickynotes
+: 1736240342:0;npm run dev
+: 1736240412:0;npx openapi-typescript http://localhost:8000/openapi.json -o src/app/models/schema.ts
+: 1736249571:0;/bin/python3 /home/anupam/.vscode/extensions/ms-python.python-2024.22.1-linux-x64/python_files/printEnvVariablesToFile.py /home/anupam/.vscode/extensions/ms-python.python-2024.22.1-linux-x64/python_files/deactivate/zsh/envVars.txt
+: 1736250099:0;git status
+: 1736250116:0;git diff src/app/components/msal-auth.ts
+: 1736250123:0;git checkout src/app/components/msal-auth.ts
+: 1736250136:0;git diff src/app/components/navigation/left-menu.ts
+: 1736250150:0;git diff src/app/models/schema.ts
+: 1736250164:0;git add src/app/models/schema.ts
+: 1736250167:0;git status
+: 1736250179:0;git diff src/app/services/http.service.ts
+: 1736250184:0;git checkout src/app/services/http.service.ts
+: 1736250186:0;git status
+: 1736250199:0;git diff src/app/components/navigation/left-menu.ts
+: 1736250221:0;git add src/app/components/navigation/left-menu.ts
+: 1736250238:0;git checkout -b role_based_changes_ui
+: 1736250267:0;git commit -m "changes for having different roles"
+: 1736250274:0;git push origin role_based_changes_ui
+: 1736250365:0;git status
+: 1736250372:0;npm run dev
+: 1736304890:0;pwd
+: 1736304891:0;cd
+: 1736304895:0;cd master/Platform/
+: 1736304902:0;pyenv activate pyenv_3_10_0
+: 1736304907:0;code .
+: 1736322089:0;bazel run //cmd/validation_service:validation_service
+: 1736337793:0;npm run dev
+: 1736338580:0;ls -lrt
+: 1736338589:0;cd master/Platform
+: 1736338590:0;ls
+: 1736338594:0;pyenv activate pyenv_3_10_0
+: 1736338603:0;code .
+: 1736338609:0;/usr/bin/python3 /home/anupam/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/printEnvVariablesToFile.py /home/anupam/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/deactivate/zsh/envVars.txt
+: 1736338611:0;cd
+: 1736338612:0;ls -lrt
+: 1736338616:0;cd UI
+: 1736338616:0;ls
+: 1736338618:0;cd Platform
+: 1736338619:0;ls
+: 1736338628:0;git status
+: 1736338633:0;code .
+: 1736338640:0;/usr/bin/python3 /home/anupam/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/printEnvVariablesToFile.py /home/anupam/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/deactivate/zsh/envVars.txt
+: 1736338651:0;cd
+: 1736338655:0;cd -
+: 1736338659:0;cd infra
+: 1736338676:0;cd admin_service
+: 1736338682:0;bazel run //cmd/admin_service:admin_service\
+: 1736227317:0;bazel run //cmd/admin_service:admin_service
+: 1736338687:0;ls -lrt
+: 1736338692:0;cd reporting_service
+: 1736338712:0;bazel run //cmd/reporting_service:reporting_service
+: 1736338716:0;pwd
+: 1736338732:0;cd validation_service
+: 1736338739:0;bazel run //cmd/validation_service:validation_service
+: 1736338752:0;sudo systemctl start mongod
+: 1736338758:0;exit
+: 1736338932:0;pwd
+: 1736338940:0;git status
+: 1736338969:0;npm run dev
+: 1736338982:0;pwd
+: 1736338986:0;npm i 
+: 1736338998:0;npm install .
+: 1736339007:0;pwd
+: 1736339013:0;cd ui/superadmin_ui
+: 1736339023:0;git status
+: 1736339027:0;pwd
+: 1736339033:0;npm run dev
+: 1736339561:0;find . -type d -name "__pycache__" -exec rm -rf {} +\
+
+: 1736339565:0;pwd
+: 1736340034:0;find . -type d -name "__pycache__" -exec rm -rf {} +\
+
+: 1736340311:0;cd 
+: 1736340314:0;cd master
+: 1736340316:0;cd Platform
+: 1736340329:0;cd infra/validation_service
+: 1736340333:0;bazel run //cmd/validation_service:validation_service
+: 1736354580:0;npm run dev
+: 1736415574:0;=======================
+: 1736419959:0;/bin/python3 /home/anupam/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/printEnvVariablesToFile.py /home/anupam/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/deactivate/zsh/envVars.txt
+: 1736420125:0;ls -lrt
+: 1736430834:0;/usr/bin/python3 /home/anupam/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/printEnvVariablesToFile.py /home/anupam/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/deactivate/zsh/envVars.txt
+: 1736431404:0;cd UI/Platform
+: 1736431409:0;cd ui/superadmin_ui
+: 1736431412:0;npm run dev
+: 1736483923:0;pwd
+: 1736483964:0;npx openapi-typescript http://localhost:8000/openapi.json -o src/app/models/schema.ts
+: 1736486704:0;sudo systemctl start mongod
+: 1736487811:0;cd
+: 1736487814:0;cd master
+: 1736487814:0;ls
+: 1736487816:0;cd Platform
+: 1736487822:0;cd infra/admin_service
+: 1736487837:0;bazel run //cmd/admin_service:admin_service\
+: 1736227317:0;bazel run //cmd/admin_service:admin_service
+: 1736488056:0;git statu
+: 1736488058:0;git status
+: 1736488065:0;cd ..
+: 1736488067:0;git status
+: 1736488070:0;cd ..
+: 1736488071:0;git status
+: 1736488084:0;git add api/resources/access.py
+: 1736488094:0;git add ui/superadmin_ui/src/app/components/msal-auth.ts
+: 1736488106:0;git addd ui/superadmin_ui/src/app/components/navigation/left-menu.ts
+: 1736488116:0;git add ui/superadmin_ui/src/app/components/navigation/left-menu.ts
+: 1736488146:0;git diff ui/superadmin_ui/src/app/components/tenant/tenant-dashboard.ts
+: 1736488161:0;git add ui/superadmin_ui/src/app/components/tenant/tenant-dashboard.ts
+: 1736488179:0;git add ui/superadmin_ui/src/app/components/tenant/tenant-details.ts
+: 1736488180:0;git status
+: 1736488196:0;git add ui/superadmin_ui/src/app/components/tenant/tenant-list.ts
+: 1736488208:0;git diff ui/superadmin_ui/src/app/models/schema.ts
+: 1736488221:0;git add ui/superadmin_ui/src/app/models/schema.ts
+: 1736488223:0;git status
+: 1736488245:0;git commit -m "rough changes for adding user roles in tenant details page"
+: 1736488252:0;git push origin role_based_changes_ui
+: 1736488271:0;cd
+: 1736488275:0;cd master/Platform
+: 1736488275:0;ls
+: 1736488278:0;git status
+: 1736488304:0;git add api/app.py
+: 1736488311:0;git add api/resources/access.py
+: 1736488318:0;git add api/resources/menus/api.py
+: 1736488324:0;git add api/resources/menus/schema.py
+: 1736488333:0;git add api/resources/tenant_configuration/api.py
+: 1736488341:0;git add api/resources/tenant_configuration/schema.py
+: 1736488348:0;git add caching_client/caching_service_client.py
+: 1736488357:0;git add infra/admin_service/internal/user_role_configuration_repo_impl.go
+: 1736488377:0;git add infra/validation_service/internal/admin_role_repo_impl.go
+: 1736488386:0;git diff infra/validation_service/internal/role_validation_server_impl.go
+: 1736488391:0;git add infra/validation_service/internal/role_validation_server_impl.go
+: 1736488401:0;git commit -m "rough tentative changes for get_menu"
+: 1736488409:0;git push origin get_menu
+: 1736489920:0;git status
+: 1736489942:0;git add common/role_validation_client/
+: 1736489943:0;git status
+: 1736489955:0;git commit -m "adding role_validation client\
+"
+: 1736489961:0;git push origin get_menu
+: 1736489988:0;git pull origin admin_user_roles
+: 1736490163:0;git status
+: 1736490174:0;git add api/app.py
+: 1736490180:0;git add api/resources/access.py
+: 1736490192:0;git commit -m "resolving merge conflict"
+: 1736490197:0;git push origin get_menu
+: 1736492270:0;pyenv activate pyenv_3_10_0
+: 1736492303:0;pip install grpcio-tools<=1.68.0.
+: 1736492307:0;pip install grpcio-tools==1.68.0.
+: 1736492314:0;pip install grpcio-tools
+: 1736493056:0;pwd
+: 1736493063:0;cd infra/admin_service
+: 1736493252:0;pwd
+: 1736493277:0;python -m grpc_tools.protoc -I proto --python_out=. --pyi_out=. --grpc_python_out=. ./proto/apikey_configuration.proto
+: 1736498279:0;cd ..
+: 1736498280:0;pwd
+: 1736498282:0;cd validation_service
+: 1736498290:0;bazel run //cmd/validation_service:validation_service
+: 1736500076:0;bazel run //cmd/admin_service:admin_service\
+: 1736227317:0;bazel run //cmd/admin_service:admin_service
+: 1736501940:0;bazel run //cmd/admin_service:admin_serv
+: 1736501945:0;bazel run //cmd/admin_service:admin_service
+: 1736502004:0;bazel run //cmd/admin_service:admin_serv
+: 1736502006:0;bazel run //cmd/admin_service:admin_service
+: 1736507226:0;pwd
+: 1736507230:0;cd hurl/
+: 1736507230:0;ls
+: 1736507232:0;cd idp
+: 1736507233:0;ls
+: 1736507234:0;clear
+: 1736507236:0;ls -lrt
+: 1736507241:0;python generate_jwt_superadmin.py
+: 1736507563:0;bazel run //cmd/validation_service:validation_service
+: 1736518615:0;pwd
+: 1736518629:0;python -m grpc_tools.protoc -I proto --python_out=. --pyi_out=. --grpc_python_out=. ./proto/user_role_configuration.proto 
+: 1736518632:0;pyenv activate pyenv_3_10_0
+: 1736518634:0;python -m grpc_tools.protoc -I proto --python_out=. --pyi_out=. --grpc_python_out=. ./proto/user_role_configuration.proto 
+: 1736521928:0;git status
+: 1736525825:0;npx openapi-typescript http://localhost:8000/openapi.json -o src/app/models/schema.ts
+: 1736527984:0;pwd
+: 1736527991:0;cd ui/superadmin_ui
+: 1736527995:0;npx openapi-typescript http://localhost:8000/openapi.json -o src/app/models/schema.ts
+: 1736528963:0;bazel run //cmd/admin_service:admin_service
+: 1736535551:0;git status
+: 1736535555:0;cd ..
+: 1736535558:0;git status
+: 1736535570:0;git diff api/resources/menus/api.py
+: 1736535583:0;git add api/resources/menus/api.py
+: 1736535626:0;git add api/resources/tenant_configuration/api.py
+: 1736535649:0;rm config_services/api_key/apikey_configuration_pb2_grpc_old.py
+: 1736535660:0;rm config_services/api_key/apikey_configuration_pb2_old.py
+: 1736535674:0;rm config_services/api_key/apikey_configuration_pb2_old.pyi
+: 1736535682:0;rm infra/admin_service/apikey_configuration_pb2.py
+: 1736535692:0;rm infra/admin_service/apikey_configuration_pb2.pyi
+: 1736535703:0;rm infra/admin_service/apikey_configuration_pb2_grpc.py
+: 1736535705:0;git status
+: 1736535737:0;git add api/resources/tenant_configuration/schema.py
+: 1736535746:0;git add config_services/api_key/apikey_configuration_pb2_grpc.py
+: 1736535752:0;git add config_services/api_key/apikey_configuration_pb2.py
+: 1736535780:0;git diff config_services/tenant/tenant_service_client.py 
+: 1736535791:0;git add common/user_role_config_client/
+: 1736535812:0;git commit -m "adding user_role_config_implementation "
+: 1736535819:0;git push origin get_menu
+: 1736574845:0;pwd
+: 1736574846:0;cd ..
+: 1736574848:0;cd admin_service
+: 1736574854:0;bazel run //cmd/admin_service:admin_service
+: 1736692258:0;===
+: 1736703534:0;git status
+: 1736703544:0;git diff api/app.py
+: 1736703559:0;git add api/app.py
+: 1736703564:0;git diff api/resources/access.py
+: 1736703573:0;git diff api/resources/tenant_configuration/api.py
+: 1736703592:0;git add api/resources/tenant_configuration/api.py
+: 1736703594:0;git status
+: 1736703606:0;git add common/user_role_config_client/
+: 1736703613:0;git diff config_services/tenant/tenant_configuration.py
+: 1736703681:0;git commit -m "changes for having user role config in save tenant configuration and get tenant configuration"
+: 1736703686:0;git push origin get_menu
+: 1736705180:0;bazel run //cmd/validation_service:validation_service
+: 1736708475:0;python generate_jwt_superadmin.py
+: 1736709057:0;bazel run //cmd/validation_service:validation_service
+: 1736729805:0;pwd
+: 1736729839:0;cd
+: 1736729860:0;mkdir add_user_role_config_to_tenant_config
+: 1736729863:0;cd add_user_role_config_to_tenant_config
+: 1736729866:0;git clone git@github.com:Lab45-CoreAI/Platform.git
+: 1736729917:0;cd Platform
+: 1736729970:0;git checkout -b add_user_role_config_to_tenant_config
+: 1736729978:0;git pull origin admin_user_roles
+: 1736729986:0;git config pull.rebase false
+: 1736729992:0;git pull origin admin_user_roles
+: 1736730771:0;git status
+: 1736730773:0;pwd
+: 1736730778:0;git log --oneline
+: 1736731928:0;exit
+: 1736732352:0;ls -lrt
+: 1736732356:0;cd add_user_role_config_to_tenant_config
+: 1736732357:0;cd Platform
+: 1736732359:0;ls -lrt
+: 1736732371:0;code .
+: 1736732409:0;/usr/bin/python3 /home/anupam/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/printEnvVariablesToFile.py /home/anupam/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/deactivate/zsh/envVars.txt
+: 1736733747:0;cd
+: 1736733749:0;ls -lrt
+: 1736733753:0;cd master/Platform
+: 1736733756:0;code .
+: 1736733762:0;/bin/python3 /home/anupam/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/printEnvVariablesToFile.py /home/anupam/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/deactivate/zsh/envVars.txt
+: 1736733877:0;git status
+: 1736733889:0;git add api/resources/tenant_configuration/api.py
+: 1736733896:0;git add api/resources/tenant_configuration/schema.py
+: 1736733907:0;git add common/user_role_config_client/
+: 1736733925:0;git commit -m "changes add user role to tenant config"
+: 1736733932:0;git push origin add_user_role_config_to_tenant_config
+: 1736734607:0;git status
+: 1736734610:0;git diff
+: 1736734627:0;git add api/resources/tenant_configuration/api.py
+: 1736734635:0;git add common/user_role_config_client/user_role_config_client.py
+: 1736734642:0;git add common/user_role_config_client/user_role_config_manager.py
+: 1736734652:0;git commit -m "refactoring"
+: 1736734657:0;git push origin add_user_role_config_to_tenant_config
+: 1736742967:0;sudo systemctl start mongod
+: 1736742975:0;cd
+: 1736742978:0;cd UI/Platform
+: 1736742981:0;code .
+: 1736742988:0;/usr/bin/python3 /home/anupam/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/printEnvVariablesToFile.py /home/anupam/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/deactivate/zsh/envVars.txt
+: 1736743018:0;code .
+: 1736743026:0;npm run dev
+: 1736743032:0;cd ui/superadmin_ui
+: 1736743033:0;npm run dev
+: 1736743042:0;pyenv activate pyenv_3_10_0
+: 1736743071:0;code .
+: 1736743078:0;/usr/bin/python3 /home/anupam/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/printEnvVariablesToFile.py /home/anupam/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/deactivate/zsh/envVars.txt
+: 1736743806:0;pwd
+: 1736743810:0;cd infra/admin_service
+: 1736743817:0;bazel run //cmd/admin_service:admin_service
+: 1736743849:0;pwd
+: 1736743851:0;cd ..
+: 1736743852:0;cd validation_service
+: 1736743857:0;bazel run //cmd/validation_service:validation_service
+: 1736747654:0;git status
+: 1736747662:0;pwd
+: 1736747699:0;cd ..
+: 1736747702:0;git status
+: 1736747713:0;git diff api/resources/access.py
+: 1736748473:0;git status
+: 1736748479:0;git diff api/resources/access.py
+: 1736748492:0;git pull origin admin_roles
+: 1736748510:0;git stash
+: 1736748514:0;git pull origin admin_roles
+: 1736749187:0;/home/anupam/.pyenv/versions/3.10.0/envs/pyenv_3_10_0/bin/python /home/anupam/master/Platform/api/resources/tenant_configuration/api.py
+: 1736749203:0;git pull origin admin_roles
+: 1736755142:0;bazel run //cmd/admin_service:admin_service
+: 1736758978:0;git pull origin admin_roles
+: 1736758989:0;git push origin add_user_role_config_to_tenant_config
+: 1736759627:0;cd infra/reporting_service
+: 1736759634:0;bazel run //cmd/reporting_service:reporting_service
+: 1736787723:0;bazel run //cmd/validation_service:validation_service
+: 1736830356:0;code .
+: 1736830364:0;/bin/python3 /home/anupam/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/printEnvVariablesToFile.py /home/anupam/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/deactivate/zsh/envVars.txt
+: 1736830534:0;bazel run //cmd/admin_service:admin_service
+: 1736830542:0;bazel run //cmd/validation_service:validation_service
+: 1736830566:0;pwd
+: 1736830573:0;bazel run //cmd/reporting_service:reporting_service
+: 1736841497:0;bazel run //cmd/validation_service:validation_service
+: 1736842387:0;ls -lrt
+: 1736842390:0;cd 
+: 1736842397:0;cd UI/Platform
+: 1736842398:0;ls
+: 1736842401:0;pwd
+: 1736842403:0;code .
+: 1736842413:0;/usr/bin/python3 /home/anupam/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/printEnvVariablesToFile.py /home/anupam/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/deactivate/zsh/envVars.txt
+: 1736844487:0;bazel run //cmd/validation_service:validation_service
+: 1736852373:0;cd
+: 1736852374:0;ls -lrt
+: 1736852380:0;mkdir Jan14
+: 1736852382:0;cd Jan14
+: 1736852385:0;git clone git@github.com:Lab45-CoreAI/Platform.git
+: 1736852422:0;cd Platform
+: 1736852434:0;code .
+: 1736852482:0;cd ui/superadmin_ui
+: 1736852484:0;npm run dev
+: 1736852490:0;pyenv activate pyenv_3_10_0
+: 1736852496:0;npm i 
+: 1736852682:0;npm run dev
+: 1736852691:0;npm install .
+: 1736852737:0;npm run dev
+: 1736912914:0;bazel run //cmd/admin_service:admin_service
+: 1736912934:0;bazel run //cmd/validation_service:validation_service
+: 1736918842:0;lcd
+: 1736918844:0;ls -lrt
+: 1736918844:0;cd
+: 1736918846:0;clear
+: 1736918847:0;ls -lrt
+: 1736918850:0;cd add_user_role_config_to_tenant_config
+: 1736918851:0;cd Platform
+: 1736918855:0;git pull origin admin_roles
+: 1736924005:0;bazel run //cmd/validation_service:validation_service
+: 1736931957:0;bazel run //cmd/admin_service:admin_service
+: 1736932087:0;bazel run //cmd/validation_service:validation_service
+: 1736933673:0;cd
+: 1736933675:0;vim notes
+: 1737000414:0;vim tenant-details-jan16-2024.ts
+: 1737006795:0;vim tenant-details-jan16-2024_1.ts
+: 1737010465:0;ls -lrt
+: 1737010471:0;cd UI/Platform
+: 1737010480:0;cd ..
+: 1737010481:0;cd -
+: 1737010486:0;cd ui/superadmin_ui
+: 1737010489:0;pyenv activate pyenv_3_10_0
+: 1737010493:0;npm run dev
+: 1737010497:0;cd
+: 1737010499:0;cd master/Platform
+: 1737010501:0;code .
+: 1737010509:0;sudo systemctl start mongod
+: 1737010510:0;/bin/python3 /home/anupam/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/printEnvVariablesToFile.py /home/anupam/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/deactivate/zsh/envVars.txt
+: 1737010523:0;cd infra/admin_service
+: 1737010530:0;pwd
+: 1737010531:0;cd ..
+: 1737010536:0;cd infra/reporting_service
+: 1737010541:0;cd ..
+: 1737010544:0;cd infra/validation_service
+: 1737011699:0;cd ..
+: 1737011700:0;pwd
+: 1737011702:0;cd ..
+: 1737011703:0;code .
+: 1737011710:0;/bin/python3 /home/anupam/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/printEnvVariablesToFile.py /home/anupam/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/deactivate/zsh/envVars.txt
+: 1737012142:0;bazel run //cmd/admin_service:admin_service
+: 1737012151:0;bazel run //cmd/reporting_service:reporting_service
+: 1737012165:0;bazel run //cmd/validation_service:validation_service
+: 1737014536:0;cd
+: 1737014538:0;vim notes
+: 1737030395:0;cd Documents
+: 1737030396:0;ls
+: 1737030399:0;code sample_response.json
+: 1737083381:0;cd
+: 1737083382:0;ls -lrt
+: 1737083387:0;cd UI/Platform
+: 1737083388:0;code .
+: 1737083397:0;/bin/python3 /home/anupam/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/printEnvVariablesToFile.py /home/anupam/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/deactivate/zsh/envVars.txt
+: 1737083623:0;cd
+: 1737083626:0;cd master/Platform
+: 1737083630:0;code .
+: 1737083636:0;/usr/bin/python3 /home/anupam/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/printEnvVariablesToFile.py /home/anupam/.vscode/extensions/ms-python.python-2024.22.2-linux-x64/python_files/deactivate/zsh/envVars.txt
+: 1737083674:0;pwd
+: 1737083678:0;cd infra/admin_service
+: 1737083682:0;cd ..
+: 1737083685:0;cd reporting_service
+: 1737083688:0;cd ..
+: 1737083690:0;cd validation_service
+: 1737083702:0;bazel run //cmd/admin_service:admin_service
+: 1737083724:0;sudo systemctl start mongod
+: 1737083734:0;exit
+: 1737083738:0;bazel run //cmd/admin_service:admin_service
+: 1737083747:0;bazel run //cmd/reporting_service:reporting_service
+: 1737083761:0;pwd
+: 1737083768:0;bazel run //cmd/validation_service:validation_service
+: 1737096675:0;bazel run //cmd/admin_service:admin_service
+: 1737096678:0;bazel run //cmd/reporting_service:reporting_service
+: 1737096682:0;bazel run //cmd/validation_service:validation_service
+: 1737097747:0;cd
+: 1737097749:0;cd master/Platform
+: 1737097751:0;cd
+: 1737097753:0;cd UI/Platform
+: 1737097758:0;cd ui/superadmin_ui
+: 1737097762:0;npm run dev
+: 1737124163:0;cd ..
+: 1737124165:0;git status
+: 1737124181:0;cd src
+: 1737124181:0;s
+: 1737124183:0;ls
+: 1737124185:0;cd ..
+: 1737124187:0;ls -lrt
+: 1737124189:0;git status
+: 1737124202:0;cd src
+: 1737124203:0;ls
+: 1737124205:0;cd app
+: 1737124205:0;ls
+: 1737124209:0;cd models
+: 1737124209:0;ls
+: 1737124211:0;cd ..
+: 1737124215:0;git status
+: 1737124218:0;cd ..
+: 1737124220:0;git status
+: 1737124252:0;git status | find 
+: 1737124256:0;git status
+: 1737124313:0;git status --porcelain
+: 1737124331:0;git status --porcelain | awk '{print $2}'
+: 1737124341:0;git status --porcelain | awk '{print $2}' | grep *.ts
+: 1737124356:0;git status --porcelain | awk '{print $2}' 
+: 1737124424:0;git status --porcelain | awk '$1 ~ /^M/ {print $2}' 
+: 1737124463:0;for file in $(git status --porcelain | awk '$1 ~ /^M/ {print $2}')\
+do\
+print $file\
+done
+: 1737124474:0;for file in $(git status --porcelain | awk '$1 ~ /^M/ {print $2}')\
+do\
+git add  $file\
+done
+: 1737124477:0;git status
+: 1737124487:0;git commit -m "tenantive changes for menu"
+: 1737124492:0;git push origin role_based_changes_ui
+: 1737124513:0;git status
+: 1737124522:0;git diff api/resources/access.py
+: 1737124642:0;for file in $(git status --porcelain | awk '$1 ~ /^M/ {print $2}')\
+do\
+print   $file\
+done
+: 1737124661:0;for file in $(git status --porcelain | awk '$1 ~ /^M/ {print $2}')\
+do\
+git add    $file\
+done
+: 1737124662:0;git status
+: 1737124665:0;git commit -m "tenantive changes for menu"
+: 1737124673:0;git push origin get_menu
+: 1739465082:0;ls
+: 1739465084:0;ls -lrt
+: 1739465088:0;history
+: 1739465092:0;ls -lrt
+: 1739465244:0;vim ~/.bashrc
+: 1739465438:0;git clone https://github.com/Anupam02/genAIcoursera.git
+: 1739465447:0;ls -lrt
+: 1739465452:0;cd genAIcoursera
+: 1739465452:0;ls
+: 1739465457:0;vim README.md
+: 1739465507:0;cat ~/.bash_history
+: 1739465514:0;cat ~/.bash_history | wc -l
+: 1739465529:0;cat ~/.zsh_history | wc -l
+: 1739465574:0;cp ~/.zsh_history .zsh_history
